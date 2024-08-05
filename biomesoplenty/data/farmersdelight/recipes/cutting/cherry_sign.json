@@ -2,12 +2,12 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "biomesoplenty:jacaranda_hanging_sign"
+      "item": "biomesoplenty:cherry_sign"
     }
   ],
   "result": [
     {
-      "item": "biomesoplenty:jacaranda_planks"
+      "item": "biomesoplenty:cherry_planks"
     }
   ],
   "tool": {

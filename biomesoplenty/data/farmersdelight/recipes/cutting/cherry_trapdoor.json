@@ -2,12 +2,12 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "biomesoplenty:palm_hanging_sign"
+      "item": "biomesoplenty:cherry_trapdoor"
     }
   ],
   "result": [
     {
-      "item": "biomesoplenty:palm_planks"
+      "item": "biomesoplenty:cherry_planks"
     }
   ],
   "tool": {

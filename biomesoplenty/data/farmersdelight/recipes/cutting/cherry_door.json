@@ -2,12 +2,12 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "biomesoplenty:hellbark_hanging_sign"
+      "item": "biomesoplenty:cherry_door"
     }
   ],
   "result": [
     {
-      "item": "biomesoplenty:hellbark_planks"
+      "item": "biomesoplenty:cherry_planks"
     }
   ],
   "tool": {
