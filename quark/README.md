@@ -2,7 +2,7 @@
 Adds more [Farmer's Delight](https://modrinth.com/mod/farmers-delight) cutting board recipes for [Quark](https://modrinth.com/mod/quark)
 
 - Bark, stripping, recycling for all wood types
-- Seed Pouch recycling into leather
+- Seed Pouch recycling into rabbit hide
 
 ![Wood Cutting](media/woodcutting.png) ![Seed Pouch Cutting](media/seedpouchcutting.png)
 

@@ -1,10 +1,10 @@
 {
     "id": "farmers-cutting-quark",
     "name": "Farmer's Cutting: Quark",
-    "version": "v1.0.0-1.20.1",
+    "version": "v1.0.0-1.18",
     "output": "build",
     "data_pack": {
-        "pack_format": 15,
+        "pack_format": 8,
         "description": "Add Farmer's cutting recipes for Quark",                 
         "load": ["."],
         "zipped": true
