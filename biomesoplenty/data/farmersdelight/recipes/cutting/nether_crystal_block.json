@@ -2,16 +2,17 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "biomesoplenty:willow_trapdoor"
+      "item": "biomesoplenty:nether_crystal_block"
     }
   ],
   "result": [
     {
-      "item": "biomesoplenty:willow_planks"
+      "count": 4,
+      "item": "biomesoplenty:nether_crystal"
     }
   ],
   "tool": {
     "type": "farmersdelight:tool",
-    "tool": "axe"
+    "tool": "pickaxe"
   }
 }

@@ -3,7 +3,7 @@ Adds more [Farmer's Delight](https://modrinth.com/mod/farmers-delight) cutting b
 
 - Bark, stripping, recycling for all wood types
 - More dye from one block high flowers
-- Rose Quartz blocks can be broken down into Rose Quartz Shards
+- Nether Crystal blocks can be broken down into Nether Crystals
 - Mud Bricks can be broken down into Mud Brick(s)
 
-![Flower Cutting](media/woodcutting.png) ![Wood Cutting](media/flowercutting.png) ![Rose Quartz Cutting](media/rosequartzcutting.png) ![Mud Bricks Cutting](media/mudbrickscutting.png)
+![Wood Cutting](media/woodcutting.png) ![Flower Cutting](media/flowercutting.png) ![Nether Crystal Cutting](media/nethercrystalcutting.png) ![Mud Bricks Cutting](media/mudbrickscutting.png)

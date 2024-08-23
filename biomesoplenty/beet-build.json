@@ -1,10 +1,10 @@
 {
     "id": "farmers-cutting-bop",
     "name": "Farmer's Cutting: Biomes O' Plenty",
-    "version": "v1.0.0 (1.17.1-1.19.2)",
+    "version": "v1.0.0 (1.16.5)",
     "output": "build",
     "data_pack": {
-        "pack_format": 7,
+        "pack_format": 6,
         "description": "Add Farmer's cutting recipes for Biomes O' Plenty",                 
         "load": ["."],
         "zipped": true
