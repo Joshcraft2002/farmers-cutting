@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:glowflower"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

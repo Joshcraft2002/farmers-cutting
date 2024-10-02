@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:pink_hibiscus"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
