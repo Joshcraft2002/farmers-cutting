@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "biomeswevegone:dye/makes_cyan_dye"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:cyan_dye",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Oh The Biomes We've Gone",
+  "namespace": "biomeswevegone",
+  "id_suffix": "bwg",
+  "data_pack_version": "1.0.0",
+  "pack_format": 15,
+  "platforms": ["fabric", "forge"],
+  "wood_recipes": {
+    "woods": [
+      "aspen", 
+      "baobab", 
+      "blue_enchanted", 
+      "cika", 
+      "cypress", 
+      "ebony", 
+      "fir", 
+      "florus", 
+      "green_enchanted", 
+      "holly", 
+      "ironwood", 
+      "jacaranda", 
+      "mahogany", 
+      "maple", 
+      "palm", 
+      "pine", 
+      "palo_verde",
+      "rainbow_eucalyptus", 
+      "redwood", 
+      "sakura", 
+      "skyris", 
+      "white_mangrove",
+      "willow",
+      "witch_hazel",
+      "zelkova"
+    ],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  },
+  "dye_recipes": [
+    {"input": "#biomeswevegone:dye/makes_black_dye", "color": "black", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_blue_dye", "color": "blue", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_cyan_dye", "color": "cyan", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_green_dye", "color": "green", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_magenta_dye", "color": "magenta", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_orange_dye", "color": "orange", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_pink_dye", "color": "pink", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_purple_dye", "color": "purple", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_red_dye", "color": "red", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_white_dye", "color": "white", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_yellow_dye", "color": "yellow", "count": 2}
+  ],
+  "overrides": [
+    {
+      "type": "replace_recipe_types",
+      "wood": "palo_verde",
+      "recipe_types": ["log", "wood"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "florus",
+      "recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "stem", "wood"]
+    }
+  ]
+}
