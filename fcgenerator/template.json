@@ -1,0 +1,53 @@
+{
+  "name": "Example Mod",
+  "namespace": "examplemod",
+  "id_suffix": "em",
+  "data_pack_version": "1.0",
+  "pack_format": 15,
+  "platforms": ["fabric", "forge"],
+  "wood_recipes": {
+    "woods": [
+      "example_oak", 
+      "interesting_pine", 
+      "another_mangrove"
+    ],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  },
+  "dye_recipes": [
+    {"input": "flower", "color": "red", "count": 2},
+    {"input": "another_flower", "color": "purple", "count": 2}
+  ],
+  "overrides": [
+    {
+      "type": "replace_recipe_types",
+      "wood": "interesting_pine",
+      "recipe_types": ["log", "wood"]
+    },
+    {
+      "type": "replace_single_recipe",
+      "wood": "interesting_pine",
+      "recipe_type": "log",
+      "ingredient": "examplemod:interesting_pine_log",
+      "result": "examplemod:stripped_interesting_pine_log",
+      "side_product": "farmersdelight:tree_bark"
+    }
+  ],
+  "custom_recipes": [
+    {
+      "ingredient": "examplemod:shiny_block",
+      "result": "examplemod:shiny_chunk",
+      "count": 4,
+      "tool": "pickaxe",
+      "filename": "shiny_block"
+    },
+    {
+      "ingredient": "examplemod:unique_wood",
+      "result": "examplemod:stripped_unique_wood",
+      "count": 1,
+      "side_product": "examplemod:unique_item",
+      "tool": "axe_strip",
+      "filename": "shiny_block"
+    }
+  ],
+  "enable_logging": true
+}
