@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from typing import List, Dict, Optional
 
 # Farmer's Cutting Generator (fcgenerator) 1.20.1 backport
-# v0.1.2-bp1
+# v0.1.3-bp1
 
 @dataclass
 class ModConfig:
@@ -23,12 +23,55 @@ class ModConfig:
     custom_recipes: List[Dict]
     enable_logging: bool = False
 
+@dataclass
+class RecipeTypeMapping:
+    """Mapping of values used in the recipe file per stripping recipe type."""
+    recipe_type: str
+    __file_name: str
+    __ingredient_id: str
+    __result_id: str
+
+    def __init__(self, recipe_type: str, file_name: str, ingredient_id: str, result_id: str):
+        self.recipe_type = recipe_type
+        self.__file_name = file_name
+        self.__ingredient_id = ingredient_id
+        self.__result_id = result_id
+
+    def get_file_name(self, wood: str) -> str:
+        """Get formatted file name."""
+        return self.__file_name.format(wood=wood)
+
+    def get_ingredient_id(self, namespace: str, wood: str) -> str:
+        """Get formatted ingredient path."""
+        return self.__ingredient_id.format(namespace=namespace, wood=wood)
+    
+    def get_result_id(self, namespace: str, wood: str) -> str:
+        """Get formatted result path."""
+        return self.__result_id.format(namespace=namespace, wood=wood)
+
 # Constants
 CONFIG_DIR = Path(__file__).parent / 'fcgenerator'
 
 RECIPE_TYPES = {
     "PLANKS_RECYCLE": ["door", "hanging_sign", "sign", "trapdoor"],
-    "STRIPPING": ["log", "wood", "bark", "stem", "hyphae"]
+    "STRIPPING": ["log", "wood", "bx_log", "bx_bark", "stem", "hyphae"]
+}
+
+RECIPE_TYPE_MAPPINGS = {
+    # For non-default mappings
+    # BetterX types
+    "bx_log": RecipeTypeMapping(
+        recipe_type="bx_log",
+        file_name="{wood}_log",
+        ingredient_id="{namespace}:{wood}_log",
+        result_id="{namespace}:{wood}_stripped_log"
+    ),
+    "bx_bark": RecipeTypeMapping(
+        recipe_type="bx_bark",
+        file_name="{wood}_bark",
+        ingredient_id="{namespace}:{wood}_bark",
+        result_id="{namespace}:{wood}_stripped_bark"
+    )
 }
 
 TOOL_ACTIONS = {
@@ -57,6 +100,27 @@ OVERRIDE_TYPES = {
     "RECIPE_TYPES": "replace_recipe_types",
     "SINGLE_RECIPE": "replace_single_recipe"
 }
+
+def get_recipe_mapping(recipe_type: str) -> RecipeTypeMapping:
+    """Get the mapping for a recipe type."""
+    if recipe_type in RECIPE_TYPES["PLANKS_RECYCLE"]:
+        return RECIPE_TYPE_MAPPINGS.get(recipe_type, 
+            RecipeTypeMapping(
+                recipe_type=recipe_type,
+                file_name=f"{{wood}}_{recipe_type}",
+                ingredient_id=f"{{namespace}}:{{wood}}_{recipe_type}",
+                result_id=f"{{namespace}}:{{wood}}_planks"
+            )
+        )
+    elif recipe_type in RECIPE_TYPES["STRIPPING"]:
+        return RECIPE_TYPE_MAPPINGS.get(recipe_type, 
+            RecipeTypeMapping(
+                recipe_type=recipe_type,
+                file_name=f"{{wood}}_{recipe_type}",
+                ingredient_id=f"{{namespace}}:{{wood}}_{recipe_type}",
+                result_id=f"{{namespace}}:stripped_{{wood}}_{recipe_type}"
+            )
+        )
 
 def get_knives_tag(platform: str) -> str:
     """Get the platform-specific knives tool tag."""
@@ -88,21 +152,24 @@ def create_recipe_result(item_id: str, count: int = 1) -> Dict:
         result["count"] = count
     return result
 
-def generate_cutting_recipe(config: ModConfig, wood_type: str, recipe_type: str, 
-                          platform: str, wood_override: Optional[Dict] = None) -> Dict:
+def generate_cutting_recipe(config: ModConfig, wood_type: str,  
+                          platform: str, recipe_map: RecipeTypeMapping, 
+                          wood_override: Optional[Dict] = None) -> Dict:
     """Generate a cutting recipe for a specific wood type and recipe type."""
-    default_ingredient = f"{config.namespace}:{wood_type}_{recipe_type}"
+    #default_ingredient = get_item_path(recipe_map, config.namespace, wood_type, is_stripped=False)
+    default_ingredient = recipe_map.get_ingredient_id(config.namespace, wood_type)
     ingredient = wood_override.get('ingredient', default_ingredient) if wood_override else default_ingredient
     
     recipe = create_base_recipe("item", ingredient)
     recipe["tool"] = set_tool_action(platform, TOOL_ACTIONS["axe"])
 
-    if recipe_type in RECIPE_TYPES["PLANKS_RECYCLE"]:
+    if recipe_map.recipe_type in RECIPE_TYPES["PLANKS_RECYCLE"]:
         recipe["result"] = [
-            create_recipe_result(f"{config.namespace}:{wood_type}_planks")
+            create_recipe_result(recipe_map.get_result_id(config.namespace, wood_type))
         ]
-    elif recipe_type in RECIPE_TYPES["STRIPPING"]:
-        default_stripped = f"{config.namespace}:stripped_{wood_type}_{recipe_type}"
+    elif recipe_map.recipe_type in RECIPE_TYPES["STRIPPING"]:
+        #default_stripped = get_item_path(recipe_map, config.namespace, wood_type, is_stripped=True)
+        default_stripped = recipe_map.get_result_id(config.namespace, wood_type)
         stripped_item = wood_override.get('result', default_stripped) if wood_override else default_stripped
         bark_item = wood_override.get('side_product', "farmersdelight:tree_bark") if wood_override else "farmersdelight:tree_bark"
         
@@ -273,6 +340,8 @@ def process_wood_recipes(config: ModConfig, wood_type: str, platform: str, outpu
     current_recipe_types = type_override['recipe_types'] if type_override else config.recipe_types
 
     for recipe_type in current_recipe_types:
+        recipe_map = get_recipe_mapping(recipe_type)
+
         # Check for single recipe override
         recipe_override = find_override(config.overrides, 
                                       OVERRIDE_TYPES["SINGLE_RECIPE"], 
@@ -281,9 +350,9 @@ def process_wood_recipes(config: ModConfig, wood_type: str, platform: str, outpu
         
         # Create override dict with only the specified fields
         wood_override = get_override_fields(recipe_override, ['ingredient', 'result', 'side_product'])
-        recipe = generate_cutting_recipe(config, wood_type, recipe_type, platform, wood_override)
+        recipe = generate_cutting_recipe(config, wood_type, platform, recipe_map, wood_override)
         
-        filepath = get_recipe_path(output_dir, f"{wood_type}_{recipe_type}.json")
+        filepath = get_recipe_path(output_dir, f"{recipe_map.get_file_name(wood_type)}.json")
         if not write_json_file(filepath, recipe, log_enabled=config.enable_logging):
             continue
 
