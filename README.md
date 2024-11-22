@@ -6,3 +6,4 @@ Current Mods are:
 - [Biomes O' Plenty](biomesoplenty/README.md)
 - [Oh The Biomes We've Gone](biomeswevegone/README.md)
 - [Quark](quark/README.md)
+- [Twilight Forest](twilightforest/README.md)
