@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cinderscapes:sulfur_quartz_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "cinderscapes:sulfur_quartz",
+      "count": 4
+    }
+  ],
+  "tool": {
+    "fabric:type": "farmersdelight:tool_action",
+    "action": "pickaxe_dig"
+  }
+}

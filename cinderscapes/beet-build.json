@@ -1,0 +1,14 @@
+{
+    "id": "farmers-cutting-cs",
+    "name": "Farmer's Cutting: Cinderscapes",
+    "version": "1.20.1-1.0",
+    "output": "build",
+    "data_pack": {
+        "pack_format": 15,
+        "description": "Adds Farmer's Delight cutting recipes for Cinderscapes",
+        "load": [
+            "."
+        ],
+        "zipped": true
+    }
+}
