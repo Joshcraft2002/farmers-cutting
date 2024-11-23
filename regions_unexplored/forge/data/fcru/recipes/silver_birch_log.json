@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "regions_unexplored:silver_birch_log"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}
