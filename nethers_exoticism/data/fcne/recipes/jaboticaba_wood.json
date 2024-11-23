@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "nethers_exoticism:jaboticaba_wood"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  },
+  "result": [
+    {
+      "item": "nethers_exoticism:stripped_jaboticaba_wood"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip"
+}

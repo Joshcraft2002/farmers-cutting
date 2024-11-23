@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "nethers_exoticism:jaboticaba_door"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  },
+  "result": [
+    {
+      "item": "nethers_exoticism:jaboticaba_planks"
+    }
+  ]
+}

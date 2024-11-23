@@ -1,0 +1,36 @@
+{
+  "name": "Nether's Exoticism",
+  "namespace": "nethers_exoticism",
+  "id_suffix": "ne",
+  "data_pack_version": "1.0",
+  "pack_format": 15,
+  "platforms": ["forge"],
+  "wood_recipes": {
+    "woods": ["jaboticaba", "ramboutan"],
+    "types": ["door", "trapdoor", "log", "wood"]
+  },
+  "dye_recipes": [
+    {"input": "pitaya_stem", "color": "cyan", "count": 2}
+  ],
+  "overrides": [
+    {
+      "type": "replace_single_recipe",
+      "wood": "jaboticaba",
+      "recipe_type": "log",
+      "ingredient": "nethers_exoticism:jabuticaba_log",
+      "result": "nethers_exoticism:stripped_jabuticaba_log"
+    },
+    {
+      "type": "replace_single_recipe",
+      "wood": "ramboutan",
+      "recipe_type": "log",
+      "result": "nethers_exoticism:stripped_rambutan_log"
+    },
+    {
+      "type": "replace_single_recipe",
+      "wood": "ramboutan",
+      "recipe_type": "wood",
+      "result": "nethers_exoticism:stripped_rambutan_wood"
+    }
+  ]
+}

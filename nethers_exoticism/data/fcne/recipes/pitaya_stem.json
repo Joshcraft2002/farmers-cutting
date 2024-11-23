@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "nethers_exoticism:pitaya_stem"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:cyan_dye",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
