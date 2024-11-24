@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "betterend:charnia_light_blue"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:light_blue_dye",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

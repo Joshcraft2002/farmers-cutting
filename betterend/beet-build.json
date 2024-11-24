@@ -1,0 +1,14 @@
+{
+    "id": "farmers-cutting-be",
+    "name": "Farmer's Cutting: BetterEnd",
+    "version": "1.20.1-1.0",
+    "output": "build",
+    "data_pack": {
+        "pack_format": 15,
+        "description": "Adds Farmer's Delight cutting recipes for BetterEnd",
+        "load": [
+            "."
+        ],
+        "zipped": true
+    }
+}

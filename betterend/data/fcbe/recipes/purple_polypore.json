@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "betterend:purple_polypore"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:purple_dye",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

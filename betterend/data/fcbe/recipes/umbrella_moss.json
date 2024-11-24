@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "betterend:umbrella_moss"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:yellow_dye",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

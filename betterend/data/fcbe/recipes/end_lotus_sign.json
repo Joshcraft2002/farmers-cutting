@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "betterend:end_lotus_sign"
+    }
+  ],
+  "tool": {
+    "fabric:type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  },
+  "result": [
+    {
+      "item": "betterend:end_lotus_planks"
+    }
+  ]
+}

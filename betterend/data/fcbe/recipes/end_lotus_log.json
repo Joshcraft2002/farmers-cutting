@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "betterend:end_lotus_log"
+    }
+  ],
+  "tool": {
+    "fabric:type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  },
+  "result": [
+    {
+      "item": "betterend:end_lotus_stripped_log"
+    },
+    {
+      "item": "farmersdelight:straw"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip"
+}
