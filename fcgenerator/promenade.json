@@ -1,0 +1,27 @@
+{
+  "name": "Promenade",
+  "namespace": "promenade",
+  "id_suffix": "promenade",
+  "data_pack_version": "1.0",
+  "pack_format": 15,
+  "platforms": ["fabric"],
+  "wood_recipes": {
+    "woods": [
+      "sakura", 
+      "maple", 
+      "palm",
+      "dark_amaranth"
+    ],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  },
+  "dye_recipes": [
+    {"input": "blueberries", "color": "blue", "count": 2}
+  ],
+  "overrides": [
+    {
+      "type": "replace_recipe_types",
+      "wood": "dark_amaranth",
+      "recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "stem", "hyphae"]
+    }
+  ]
+}

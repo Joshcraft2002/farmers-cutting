@@ -7,6 +7,7 @@ Current Mods are:
 - [Cinderscapes](cinderscapes/README.md)
 - [Nether's Exoticism](nethers_exoticism/README.md)
 - [Oh The Biomes We've Gone](biomeswevegone/README.md)
+- [Promenade](promenade/README.md)
 - [Quark](quark/README.md)
 - [Regions Unexplored](regions_unexplored/README.md)
 - [Terrestria](terrestria/README.md)
