@@ -2,6 +2,7 @@
 A set of datapacks that adds more [Farmer's Delight](https://modrinth.com/mod/farmers-delight) cutting board recipes for other mods
 
 Current Mods are:
+- [The Aether](aether/README.md)
 - [BetterEnd](betterend/README.md)
 - [BetterNether](betternether/README.md)
 - [Biomes O' Plenty](biomesoplenty/README.md)
