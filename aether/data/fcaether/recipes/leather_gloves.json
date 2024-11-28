@@ -7,7 +7,8 @@
     ],
     "result": [
       {
-        "item": "minecraft:leather"
+        "item": "minecraft:leather",
+        "chance": 0.5
       }
     ],
     "tool": {
