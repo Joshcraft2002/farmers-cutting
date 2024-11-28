@@ -1,0 +1,16 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "aether:leather_gloves"
+      }
+    ],
+    "result": [
+      {
+        "item": "minecraft:leather"
+      }
+    ],
+    "tool": {
+      "tag": "forge:shears"
+    }
+  }

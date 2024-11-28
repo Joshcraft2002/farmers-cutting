@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "aether:golden_oak_log"
+    }
+  ],
+  "result": [
+    {
+      "item": "aether:stripped_skyroot_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+      "item": "aether:golden_amber",
+      "count": 3
+    },
+    {
+      "item": "aether:golden_amber",
+      "count": 3,
+      "chance": 0.75
+    }
+  ],
+  "tool": {
+    "tag": "aether:golden_amber_harvesters"
+  },
+  "sound": "minecraft:item.axe.strip"
+}
