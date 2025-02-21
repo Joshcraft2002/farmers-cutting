@@ -4,7 +4,7 @@
   "id_suffix": "aether",
   "data_pack_version": "1.0",
   "pack_format": 15,
-  "platforms": ["forge"],
+  "platforms": ["fabric", "forge"],
   "wood_recipes": {
     "woods": [
       "skyroot"

@@ -2,19 +2,20 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "aether:golden_oak_wood"
+      "item": "aether:skyroot_log"
     }
   ],
+  "tool": {
+    "fabric:type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  },
   "result": [
     {
-      "item": "aether:stripped_skyroot_wood"
+      "item": "aether:stripped_skyroot_log"
     },
     {
       "item": "farmersdelight:tree_bark"
     }
   ],
-  "tool": {
-    "tag": "fcaether:cannot_harvest_golden_amber"
-  },
   "sound": "minecraft:item.axe.strip"
 }
