@@ -1,0 +1,12 @@
+{
+    "id": "farmers-cutting-bs",
+    "name": "Farmer's Cutting: Blue Skies",
+    "version": "1.20.1-1.0",
+    "data_pack": {
+        "pack_format": 15,
+        "description": "Adds Farmer's Delight cutting recipes for Blue Skies",
+        "load": [
+            "."
+        ]
+    }
+}

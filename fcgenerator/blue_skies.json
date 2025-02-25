@@ -1,0 +1,44 @@
+{
+  "name": "Blue Skies",
+  "namespace": "blue_skies",
+  "id_suffix": "bs",
+  "data_pack_version": "1.0",
+  "pack_format": 15,
+  "platforms": ["forge"],
+  "wood_recipes": {
+    "woods": [
+      "bluebright", 
+      "starlit", 
+      "frostbright",
+      "comet",
+      "lunar",
+      "dusk",
+      "maple",
+      "crystallized"
+    ],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  },
+  "dye_recipes": [
+    {"input": "chillweed", "color": "light_blue", "count": 2},
+    {"input": "camellia", "color": "pink", "count": 2},
+    {"input": "snowbloom", "color": "white", "count": 2},
+    {"input": "polar_posy", "color": "lime", "count": 2},
+    {"input": "briskbloom", "color": "purple", "count": 2},
+    {"input": "frose", "color": "light_blue", "count": 2},
+    {"input": "midday_bayhop", "color": "pink", "count": 2},
+    {"input": "lucentroot", "color": "yellow", "count": 2},
+    {"input": "crystal_flower", "color": "light_gray", "count": 2},
+    {"input": "moonlit_bloom", "color": "blue", "count": 2},
+    {"input": "blaze_bud", "color": "orange", "count": 2},
+    {"input": "flare_floret", "color": "red", "count": 2},
+    {"input": "nightcress", "color": "blue", "count": 2},
+    {"input": "blush_blossom", "color": "pink", "count": 2}
+  ],
+  "overrides": [
+    {
+      "type": "replace_recipe_types",
+      "wood": "crystallized",
+      "recipe_types": ["door", "trapdoor"]
+    }
+  ]
+}
