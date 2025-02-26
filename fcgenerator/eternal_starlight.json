@@ -2,7 +2,7 @@
   "name": "Eternal Starlight",
   "namespace": "eternal_starlight",
   "id_suffix": "es",
-  "data_pack_version": "1.0",
+  "data_pack_version": "2.0",
   "pack_format": 48,
   "platforms": ["fabric", "neoforge"],
   "wood_recipes": {
@@ -11,7 +11,8 @@
       "northland",
       "starlight_mangrove",
       "scarlet",
-      "torreya"
+      "torreya",
+      "jinglestem"
     ],
     "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
   },
@@ -34,6 +35,8 @@
     {"input": "desert_amethysia", "color": "purple", "count": 2},
     {"input": "withered_desert_amethysia", "color": "purple", "count": 2},
     {"input": "sunset_thornbloom", "color": "orange", "count": 2},
-    {"input": "amethysia_grass", "color": "purple", "count": 2}
+    {"input": "amethysia_grass", "color": "purple", "count": 2},
+    {"input": "amaramber_grass", "color": "yellow", "count": 2},
+    {"input": "amaramber_grass_bush", "color": "yellow", "count": 2}
   ]
 }
