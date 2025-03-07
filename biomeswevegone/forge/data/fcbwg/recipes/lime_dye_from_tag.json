@@ -2,16 +2,16 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "tag": "biomeswevegone:dye/makes_pink"
+      "tag": "biomeswevegone:dye/makes_lime"
     }
   ],
   "result": [
     {
-      "item": "minecraft:pink_dye",
+      "item": "minecraft:lime_dye",
       "count": 2
     }
   ],
   "tool": {
-    "tag": "c:tools/knives"
+    "tag": "forge:tools/knives"
   }
 }

@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "tag": "biomeswevegone:dye/makes_black_dye"
+      "tag": "biomeswevegone:dye/makes_black"
     }
   ],
   "result": [

@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "tag": "biomeswevegone:dye/makes_magenta_dye"
+      "tag": "biomeswevegone:dye/makes_magenta"
     }
   ],
   "result": [

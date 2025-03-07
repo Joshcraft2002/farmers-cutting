@@ -2,7 +2,7 @@
   "name": "Oh The Biomes We've Gone",
   "namespace": "biomeswevegone",
   "id_suffix": "bwg",
-  "data_pack_version": "1.0.0",
+  "data_pack_version": "1.1.0",
   "pack_format": 15,
   "platforms": ["fabric", "forge"],
   "wood_recipes": {
@@ -36,17 +36,19 @@
     "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
   },
   "dye_recipes": [
-    {"input": "#biomeswevegone:dye/makes_black_dye", "color": "black", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_blue_dye", "color": "blue", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_cyan_dye", "color": "cyan", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_green_dye", "color": "green", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_magenta_dye", "color": "magenta", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_orange_dye", "color": "orange", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_pink_dye", "color": "pink", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_purple_dye", "color": "purple", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_red_dye", "color": "red", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_white_dye", "color": "white", "count": 2},
-    {"input": "#biomeswevegone:dye/makes_yellow_dye", "color": "yellow", "count": 2}
+    {"input": "#biomeswevegone:dye/makes_black", "color": "black", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_blue", "color": "blue", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_light_blue", "color": "light_blue", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_cyan", "color": "cyan", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_green", "color": "green", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_lime", "color": "lime", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_magenta", "color": "magenta", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_orange", "color": "orange", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_pink", "color": "pink", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_purple", "color": "purple", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_red", "color": "red", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_white", "color": "white", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_yellow", "color": "yellow", "count": 2}
   ],
   "overrides": [
     {
