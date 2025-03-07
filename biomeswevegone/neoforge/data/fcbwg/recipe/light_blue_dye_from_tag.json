@@ -2,14 +2,14 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "tag": "biomeswevegone:dye/makes_green"
+      "tag": "biomeswevegone:dye/makes_light_blue"
     }
   ],
   "result": [
     {
       "item": {
         "count": 2,
-        "id": "minecraft:green_dye"
+        "id": "minecraft:light_blue_dye"
       }
     }
   ],
