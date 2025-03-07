@@ -2,7 +2,7 @@
   "name": "Oh The Biomes We've Gone",
   "namespace": "biomeswevegone",
   "id_suffix": "bwg",
-  "data_pack_version": "1.1.0",
+  "data_pack_version": "1.1",
   "pack_format": 15,
   "platforms": ["fabric", "forge"],
   "wood_recipes": {
