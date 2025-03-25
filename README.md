@@ -5,6 +5,7 @@ Fabric versions instead use [Farmer's Delight Refabricated](https://modrinth.com
 
 Current Mods are:
 - [The Aether](aether/README.md)
+- [BetterEnd](betterend/README.md)
 - [BetterNether](betternether/README.md)
 - [Biomes O' Plenty](biomesoplenty/README.md)
 - [Cinderscapes](cinderscapes/README.md)
