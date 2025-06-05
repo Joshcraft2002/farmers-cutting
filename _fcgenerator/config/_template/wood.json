@@ -1,0 +1,25 @@
+{
+	"recipes": {
+		"woods": [
+				"example_oak", 
+				"interesting_pine", 
+				"another_mangrove"
+		],
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+	},
+	"overrides": [
+		{
+			"type": "replace_recipe_types",
+			"wood": "interesting_pine",
+			"recipe_types": ["log", "wood"]
+		},
+		{
+			"type": "replace_single_recipe",
+			"wood": "interesting_pine",
+			"recipe_type": "log",
+			"ingredient": "examplemod:interesting_pine_log",
+			"result": "examplemod:stripped_interesting_pine_log",
+			"side_product": "farmersdelight:tree_bark"
+		}
+	]
+}

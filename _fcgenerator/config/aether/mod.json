@@ -1,0 +1,7 @@
+{
+  "mod_name": "The Aether",
+  "mod_id": "aether",
+  "id_suffix": "aether",
+  "data_pack_version": "1.0",
+  "platforms": ["fabric", "neoforge"]
+}

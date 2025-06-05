@@ -1,0 +1,41 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "aether:golden_oak_wood"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "aether:stripped_skyroot_wood"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "farmersdelight:tree_bark"
+      }
+    },
+    {
+      "item": {
+        "count": 3,
+        "id": "aether:golden_amber"
+      }
+    },
+    {
+      "item": {
+        "count": 3,
+        "id": "aether:golden_amber"
+      },
+      "chance": 0.75
+    }
+  ],
+  "tool": {
+    "tag": "aether:golden_amber_harvesters"
+  },
+  "sound": {
+    "sound_id": "minecraft:item.axe.strip"
+  }
+}

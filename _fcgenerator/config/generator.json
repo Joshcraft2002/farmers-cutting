@@ -1,0 +1,10 @@
+{
+  "minecraft_version": "1.21.1",
+  "fccollection_version": "1.0",
+  "pack_format": 48,
+  "mods": [
+    "aether",
+    "biomeswevegone"
+  ],
+  "fccollection_logging": false
+}

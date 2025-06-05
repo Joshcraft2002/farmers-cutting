@@ -1,0 +1,7 @@
+{
+  "mod_name": "Oh The Biomes We've Gone",
+  "mod_id": "biomeswevegone",
+  "id_suffix": "bwg",
+  "data_pack_version": "2.1",
+  "platforms": ["fabric", "neoforge"]
+}

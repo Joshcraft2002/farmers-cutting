@@ -1,12 +1,12 @@
 {
-    "id": "farmers-cutting-aether",
-    "name": "Farmer's Cutting: The Aether",
-    "version": "1.21.1-1.0-neoforge",
-    "data_pack": {
-        "pack_format": 48,
-        "description": "Adds Farmer's Delight cutting recipes for The Aether",
-        "load": [
-            "."
-        ]
-    }
+  "id": "farmers-cutting-aether",
+  "name": "Farmer's Cutting: The Aether",
+  "version": "1.21.1-1.0-neoforge",
+  "data_pack": {
+    "pack_format": 48,
+    "description": "Adds Farmer's Delight cutting recipes for The Aether",
+    "load": [
+      "."
+    ]
+  }
 }

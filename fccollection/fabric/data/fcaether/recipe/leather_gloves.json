@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "aether:leather_gloves"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:leather"
+      },
+      "chance": 0.5
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/shears"
+  }
+}

@@ -1,0 +1,45 @@
+{
+	"recipes": {
+		"woods": [
+			"aspen", 
+			"baobab", 
+			"blue_enchanted", 
+			"cika", 
+			"cypress", 
+			"ebony", 
+			"fir", 
+			"florus", 
+			"green_enchanted", 
+			"holly", 
+			"ironwood", 
+			"jacaranda", 
+			"mahogany", 
+			"maple", 
+			"palm", 
+			"pine", 
+			"palo_verde",
+			"rainbow_eucalyptus", 
+			"redwood", 
+			"sakura", 
+			"skyris", 
+			"spirit",
+			"white_mangrove",
+			"willow",
+			"witch_hazel",
+			"zelkova"
+		],
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  },
+	"overrides": [
+		{
+			"type": "replace_recipe_types",
+			"wood": "palo_verde",
+			"recipe_types": ["log", "wood"]
+		},
+		{
+			"type": "replace_recipe_types",
+			"wood": "florus",
+			"recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "stem", "wood"]
+		}
+  ]
+}

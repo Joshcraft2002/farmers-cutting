@@ -1,0 +1,17 @@
+{
+	"recipes": [
+    {"input": "#biomeswevegone:dye/makes_black", "color": "black", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_blue", "color": "blue", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_light_blue", "color": "light_blue", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_cyan", "color": "cyan", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_lime", "color": "lime", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_green", "color": "green", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_magenta", "color": "magenta", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_orange", "color": "orange", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_pink", "color": "pink", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_purple", "color": "purple", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_red", "color": "red", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_white", "color": "white", "count": 2},
+    {"input": "#biomeswevegone:dye/makes_yellow", "color": "yellow", "count": 2}
+  ]
+}

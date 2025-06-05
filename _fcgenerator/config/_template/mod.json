@@ -1,0 +1,8 @@
+{
+  "name": "Example Mod",
+  "namespace": "examplemod",
+  "id_suffix": "em",
+  "data_pack_version": "1.0",
+  "platforms": ["fabric", "neoforge"],
+  "enable_logging": true
+}

@@ -1,0 +1,8 @@
+{
+	"recipes": {
+		"woods": [
+			"skyroot"
+		],
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+	}
+}
