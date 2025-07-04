@@ -1,0 +1,9 @@
+{
+	"recipes": {
+    "woods": [
+      "scorched", 
+      "umbral"
+    ],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "stem", "hyphae"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "recipes": [
+    {
+      "ingredient": "biomesoplenty:rose_quartz_block",
+      "result": "biomesoplenty:rose_quartz_chunk",
+      "count": 4,
+      "tool": "pickaxe",
+      "filename": "rose_quartz_block"
+    }
+  ]
+}

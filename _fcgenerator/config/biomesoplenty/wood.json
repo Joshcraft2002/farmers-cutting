@@ -1,0 +1,20 @@
+{
+	"recipes": {
+		"woods": [
+			"dead", 
+			"empyreal", 
+			"fir",
+			"hellbark",
+			"jacaranda",
+			"magic",
+			"mahogany",
+			"maple",
+			"palm",
+			"pine",
+			"redwood",
+			"umbran",
+			"willow"
+		],
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+	}
+}

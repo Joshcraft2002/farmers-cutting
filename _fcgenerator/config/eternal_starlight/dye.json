@@ -1,0 +1,25 @@
+{
+	"recipes": [
+    {"input": "starlight_flower", "color": "blue", "count": 2},
+    {"input": "aureate_flower", "color": "yellow", "count": 2},
+    {"input": "conebloom", "color": "brown", "count": 2},
+    {"input": "nightfan", "color": "purple", "count": 2},
+    {"input": "pink_rose", "color": "pink", "count": 2},
+    {"input": "starlight_torchflower", "color": "yellow", "count": 2},
+    {"input": "nightfan_bush", "color": "purple", "count": 2},
+    {"input": "pink_rose_bush", "color": "pink", "count": 2},
+    {"input": "whisperbloom", "color": "pink", "count": 2},
+    {"input": "gladespike", "color": "yellow", "count": 2},
+    {"input": "vividstalk", "color": "red", "count": 2},
+    {"input": "tall_gladespike", "color": "yellow", "count": 2},
+    {"input": "swamp_rose", "color": "green", "count": 2},
+    {"input": "mauve_fern", "color": "purple", "count": 2},
+    {"input": "withered_starlight_flower", "color": "orange", "count": 2},
+    {"input": "desert_amethysia", "color": "purple", "count": 2},
+    {"input": "withered_desert_amethysia", "color": "purple", "count": 2},
+    {"input": "sunset_thornbloom", "color": "orange", "count": 2},
+    {"input": "amethysia_grass", "color": "purple", "count": 2},
+    {"input": "amaramber_grass", "color": "yellow", "count": 2},
+    {"input": "amaramber_grass_bush", "color": "yellow", "count": 2}
+  ]
+}

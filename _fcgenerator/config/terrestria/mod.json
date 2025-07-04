@@ -1,0 +1,7 @@
+{
+  "mod_name": "Terrestria",
+  "mod_id": "terrestria",
+  "id_suffix": "terrestria",
+  "data_pack_version": "1.0",
+  "platforms": ["fabric"]
+}

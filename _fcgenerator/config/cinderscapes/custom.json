@@ -1,0 +1,25 @@
+{
+  "recipes": [
+    {
+      "ingredient": "cinderscapes:sulfur_quartz_block",
+      "result": "cinderscapes:sulfur_quartz",
+      "count": 4,
+      "tool": "pickaxe",
+      "filename": "sulfur_quartz_block"
+    },
+    {
+      "ingredient": "cinderscapes:rose_quartz_block",
+      "result": "cinderscapes:rose_quartz",
+      "count": 4,
+      "tool": "pickaxe",
+      "filename": "rose_quartz_block"
+    },
+    {
+      "ingredient": "cinderscapes:smoky_quartz_block",
+      "result": "cinderscapes:smoky_quartz",
+      "count": 4,
+      "tool": "pickaxe",
+      "filename": "smoky_quartz_block"
+    }
+  ]
+}

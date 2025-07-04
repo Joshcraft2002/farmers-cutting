@@ -1,3 +1,8 @@
+# 0.2.1 (2025-06-06)
+- Further customization for the collection data pack in `generator.json` config
+  - Also added option not to generate a collection data pack
+- added `extras` example in the [template](config/_template) config
+
 # 0.2.0 (2025-06-06)
 
 ## Added

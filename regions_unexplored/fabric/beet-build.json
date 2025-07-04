@@ -1,14 +1,14 @@
 {
-    "id": "farmers-cutting-ru",
-    "name": "Farmer's Cutting: Regions Unexplored",
-    "version": "1.21.1-1.1a-fabric",
-    "output": "build",
-    "data_pack": {
-        "pack_format": 48,
-        "description": "Adds Farmer's Delight cutting recipes for Regions Unexplored",
-        "load": [
-            "."
-        ],
-        "zipped": true
-    }
+  "id": "farmers-cutting-ru",
+  "name": "Farmer's Cutting: Regions Unexplored",
+  "version": "1.21.1-1.1a-fabric",
+  "output": "build",
+  "data_pack": {
+    "pack_format": 48,
+    "description": "Adds Farmer's Delight cutting recipes for Regions Unexplored",
+    "load": [
+      "."
+    ],
+    "zipped": true
+  }
 }

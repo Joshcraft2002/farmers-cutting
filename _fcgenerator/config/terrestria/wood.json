@@ -1,0 +1,58 @@
+{
+	"recipes": {
+    "woods": [
+      "small_oak", 
+      "cypress", 
+      "cypress_quarter", 
+      "hemlock", 
+      "hemlock_quarter",
+      "japanese_maple", 
+      "rainbow_eucalyptus", 
+      "rainbow_eucalyptus_quarter",
+      "redwood", 
+      "redwood_quarter",
+      "rubber", 
+      "sakura", 
+      "willow", 
+      "yucca_palm"
+    ],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  },
+	"overrides": [
+    {
+      "type": "replace_recipe_types",
+      "wood": "small_oak",
+      "recipe_types": ["log", "wood"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "cypress_quarter",
+      "recipe_types": ["log"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "hemlock_quarter",
+      "recipe_types": ["log"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "rainbow_eucalyptus_quarter",
+      "recipe_types": ["log"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "redwood_quarter",
+      "recipe_types": ["log"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "sakura",
+      "recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "log"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "yucca_palm",
+      "recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "log"]
+    }
+  ]
+}

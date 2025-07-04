@@ -1,0 +1,6 @@
+{
+	"recipes": [
+    {"input": "huge_water_lily", "color": "magenta", "count": 2},
+    {"input": "thorn_rose", "color": "red", "count": 2}
+  ]
+}

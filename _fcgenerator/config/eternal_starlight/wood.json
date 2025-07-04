@@ -1,0 +1,13 @@
+{
+	"recipes": {
+    "woods": [
+      "lunar", 
+      "northland",
+      "starlight_mangrove",
+      "scarlet",
+      "torreya",
+      "jinglestem"
+    ],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  }
+}

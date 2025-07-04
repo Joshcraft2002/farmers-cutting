@@ -1,0 +1,7 @@
+{
+  "mod_name": "Cinderscapes",
+  "mod_id": "cinderscapes",
+  "id_suffix": "cs",
+  "data_pack_version": "1.0",
+  "platforms": ["fabric"]
+}

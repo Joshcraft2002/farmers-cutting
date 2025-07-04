@@ -1,0 +1,18 @@
+{
+	"recipes": [
+		{"input": "burning_blossom", "color": "orange", "count": 2},
+		{"input": "endbloom", "color": "light_gray", "count": 2},
+		{"input": "glowflower", "color": "cyan", "count": 2},
+		{"input": "lavender", "color": "purple", "count": 2},
+		{"input": "orange_cosmos", "color": "orange", "count": 2},
+		{"input": "pink_daffodil", "color": "pink", "count": 2},
+		{"input": "pink_hibiscus", "color": "pink", "count": 2},
+		{"input": "rose", "color": "red", "count": 2},
+		{"input": "violet", "color": "purple", "count": 2},
+		{"input": "waterlily", "color": "red", "count": 2},
+		{"input": "white_lavender", "color": "white", "count": 2},
+		{"input": "white_petals", "color": "white", "count": 2},
+		{"input": "wildflower", "color": "magenta", "count": 2},
+		{"input": "wilted_lily", "color": "gray", "count": 2}
+	]
+}

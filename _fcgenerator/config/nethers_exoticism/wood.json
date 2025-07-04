@@ -1,0 +1,27 @@
+{
+	"recipes": {
+    "woods": ["jaboticaba", "ramboutan"],
+    "types": ["door", "trapdoor", "log", "wood"]
+  },
+	"overrides": [
+    {
+      "type": "replace_single_recipe",
+      "wood": "jaboticaba",
+      "recipe_type": "log",
+      "ingredient": "nethers_exoticism:jabuticaba_log",
+      "result": "nethers_exoticism:stripped_jabuticaba_log"
+    },
+    {
+      "type": "replace_single_recipe",
+      "wood": "ramboutan",
+      "recipe_type": "log",
+      "result": "nethers_exoticism:stripped_rambutan_log"
+    },
+    {
+      "type": "replace_single_recipe",
+      "wood": "ramboutan",
+      "recipe_type": "wood",
+      "result": "nethers_exoticism:stripped_rambutan_wood"
+    }
+  ]
+}

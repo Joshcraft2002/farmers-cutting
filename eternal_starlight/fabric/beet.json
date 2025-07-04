@@ -1,12 +1,12 @@
 {
-    "id": "farmers-cutting-es",
-    "name": "Farmer's Cutting: Eternal Starlight",
-    "version": "1.21.1-2.0-fabric",
-    "data_pack": {
-        "pack_format": 48,
-        "description": "Adds Farmer's Delight cutting recipes for Eternal Starlight",
-        "load": [
-            "."
-        ]
-    }
+  "id": "farmers-cutting-es",
+  "name": "Farmer's Cutting: Eternal Starlight",
+  "version": "1.21.1-2.0-fabric",
+  "data_pack": {
+    "pack_format": 48,
+    "description": "Adds Farmer's Delight cutting recipes for Eternal Starlight",
+    "load": [
+      "."
+    ]
+  }
 }

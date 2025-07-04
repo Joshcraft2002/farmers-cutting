@@ -1,10 +1,12 @@
 {
-    "id": "farmers-cutting-bop",
-    "name": "Farmer's Cutting: Biomes O' Plenty",
-    "version": "v2.0.0-1.21",
-    "data_pack": {
-        "pack_format": 48,
-        "description": "Add Farmer's Delight cutting recipes for Biomes O' Plenty",            
-        "load": ["."]
-    }
+  "id": "farmers-cutting-bop",
+  "name": "Farmer's Cutting: Biomes O' Plenty",
+  "version": "1.21.1-v2.0.0-neoforge",
+  "data_pack": {
+    "pack_format": 48,
+    "description": "Adds Farmer's Delight cutting recipes for Biomes O' Plenty",
+    "load": [
+      "."
+    ]
+  }
 }

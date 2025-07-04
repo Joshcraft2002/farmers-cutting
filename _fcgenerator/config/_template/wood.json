@@ -1,9 +1,9 @@
 {
 	"recipes": {
 		"woods": [
-				"example_oak", 
-				"interesting_pine", 
-				"another_mangrove"
+			"example_oak", 
+			"interesting_pine", 
+			"another_mangrove"
 		],
 		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
 	},

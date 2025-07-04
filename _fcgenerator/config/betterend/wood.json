@@ -1,0 +1,31 @@
+{
+	"recipes": {
+		"woods": [
+			"mossy_glowshroom", 
+			"pythadendron", 
+			"end_lotus",
+			"lacugrove",
+			"dragon_tree",
+			"tenanea",
+			"helix_tree",
+			"umbrella_tree",
+			"jellyshroom",
+			"lucernia"
+		],
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "bx_log", "bx_bark"]
+	},
+	"overrides": [
+		{
+			"type": "replace_single_recipe",
+			"wood": "end_lotus",
+			"recipe_type": "bx_log",
+			"side_product": "farmersdelight:straw"
+		},
+		{
+			"type": "replace_single_recipe",
+			"wood": "end_lotus",
+			"recipe_type": "bx_bark",
+			"side_product": "farmersdelight:straw"
+		}
+	]
+}

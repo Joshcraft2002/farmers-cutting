@@ -1,0 +1,28 @@
+{
+	"recipes": {
+		"woods": [
+			"anchor_tree", 
+			"mushroom_fir", 
+			"nether_mushroom",
+			"nether_reed",
+			"nether_sakura",
+			"rubeus",
+			"stalagnate",
+			"wart",
+			"willow"
+		],
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "bx_log", "bx_bark"]
+	},
+	"overrides": [
+		{
+			"type": "replace_recipe_types",
+			"wood": "nether_mushroom",
+			"recipe_types": ["door", "hanging_sign", "sign", "trapdoor"]
+		},
+		{
+			"type": "replace_recipe_types",
+			"wood": "nether_reed",
+			"recipe_types": ["door", "hanging_sign", "sign", "trapdoor"]
+		}
+	]
+}

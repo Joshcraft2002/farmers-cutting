@@ -20,13 +20,22 @@ def process_mods(generator_config: Dict) -> None:
     for mod in generator_config['mods']:
         process_mod_config(mod, generator_config['pack_format'], generator_config['minecraft_version'])
 
-def generate_fccollection(generator_config: Dict):
+def generate_collection(generator_config: Dict):
     """Compile all generated recipes into a single collection."""
 
-    enable_logging=generator_config.get('enable_logging', False)
+    collection_data = ModData(
+        mod_id=generator_config['collection_id'],
+        mod_name=generator_config['collection_name'],
+        id_suffix=generator_config['collection_id_suffix'],
+        platforms=None, 
+        recipes=None,  # Both Irrelevant for this
+        data_pack_version=generator_config['collection_version'],
+        pack_format=generator_config['pack_format'],
+        enable_logging=generator_config.get('enable_logging', False)
+    )
 
     # Clear up the previous collection files
-    cleanup_old_files("fccollection", enable_logging)
+    cleanup_old_files(f"fc{collection_data.mod_id}", collection_data.enable_logging)
 
     # Determine all supported platforms from mod configurations
     platforms = set()
@@ -37,34 +46,23 @@ def generate_fccollection(generator_config: Dict):
 
         for platform in platforms:
             mod_data_dir = Path(f"{mod}/{platform}/data/fc{mod_info['id_suffix']}")
-            collection_data_dir = Path(f"fccollection/{platform}/data/fc{mod_info['id_suffix']}")
+            collection_data_dir = Path(f"fc{collection_data.mod_id}/{platform}/data/fc{mod_info['id_suffix']}")
             copy_tree(mod_data_dir, collection_data_dir)
-
-    # Send fccollection data as a "ModData" object for beet file generation
-    fccollection_data = ModData(
-        mod_id="fccollection",
-        mod_name="Collection",
-        id_suffix="collection",
-        platforms=platforms,
-        recipes=None,  # Irrelevant for the beet files
-        data_pack_version=generator_config['fccollection_version'],
-        pack_format=generator_config['pack_format'],
-        enable_logging=enable_logging
-    )
 
     for platform in platforms:
         generate_beet_files(
-            Path(f"fccollection/{platform}"),
-            fccollection_data,
+            Path(f"fc{collection_data.mod_id}/{platform}"),
+            collection_data,
             platform,
             generator_config["minecraft_version"],
-            "All Farmer's Cutting recipes combined"
+            generator_config["collection_description"]
             )
 
 def main():
     try:
         generator_config = load_generator_config()
         process_mods(generator_config)
-        generate_fccollection(generator_config)
+        if generator_config['create_collection']:
+            generate_collection(generator_config)
     except Exception as e:
         print(f"An unexpected error occurred: {e}")

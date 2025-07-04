@@ -1,0 +1,14 @@
+{
+	"recipes": {
+    "woods": [
+			"twilight_oak", 
+			"canopy", 
+			"mangrove", 
+			"dark", 
+			"time", 
+			"transformation", 
+			"mining", 
+			"sorting"],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  }
+}

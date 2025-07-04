@@ -1,0 +1,11 @@
+{
+  "recipes": [
+    {
+      "ingredient": "betterend:smaragdant_crystal",
+      "result": "betterend:smaragdant_crystal_shard",
+      "count": 4,
+      "tool": "pickaxe",
+      "filename": "smaragdant_crystal"
+    }
+  ]
+}

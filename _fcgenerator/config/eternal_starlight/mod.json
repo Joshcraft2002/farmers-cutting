@@ -1,0 +1,7 @@
+{
+  "mod_name": "Eternal Starlight",
+  "mod_id": "eternal_starlight",
+  "id_suffix": "es",
+  "data_pack_version": "2.0",
+  "platforms": ["fabric", "neoforge"]
+}

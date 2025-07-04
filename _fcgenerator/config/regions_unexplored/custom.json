@@ -1,0 +1,52 @@
+{
+  "recipes": [
+    {
+      "ingredient": "regions_unexplored:ashen_log",
+      "result": "regions_unexplored:stripped_dead_log",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "axe_strip",
+      "filename": "ashen_log"
+    },
+    {
+      "ingredient": "regions_unexplored:ashen_wood",
+      "result": "regions_unexplored:stripped_dead_wood",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "axe_strip",
+      "filename": "ashen_wood"
+    },
+    {
+      "ingredient": "regions_unexplored:bamboo_log",
+      "result": "regions_unexplored:stripped_bamboo_log",
+      "count": 1,
+      "side_product": "farmersdelight:straw",
+      "tool": "axe_strip",
+      "filename": "bamboo_log"
+    },
+    {
+      "ingredient": "regions_unexplored:silver_birch_log",
+      "result": "minecraft:stripped_birch_log",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "axe_strip",
+      "filename": "silver_birch_log"
+    },
+    {
+      "ingredient": "regions_unexplored:silver_birch_wood",
+      "result": "minecraft:stripped_birch_wood",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "axe_strip",
+      "filename": "silver_birch_wood"
+    },
+    {
+      "ingredient": "regions_unexplored:brimwood_log_magma",
+      "result": "regions_unexplored:stripped_brimwood_log",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "axe_strip",
+      "filename": "brimwood_log_magma"
+    }
+  ]
+}

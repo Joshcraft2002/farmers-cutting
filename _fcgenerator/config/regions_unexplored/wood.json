@@ -1,0 +1,57 @@
+{
+	"recipes": {
+    "woods": [
+      "small_oak",
+      "baobab",
+      "blackwood",
+      "blue_bioshroom",
+      "brimwood",
+      "cobalt",
+      "cypress",
+      "dead",
+      "eucalyptus",
+      "green_bioshroom",
+      "joshua",
+      "kapok",
+      "larch",
+      "magnolia",
+      "maple",
+      "mauve",
+      "palm",
+      "pine",
+      "pink_bioshroom",
+      "redwood",
+      "socotra",
+      "willow",
+      "yellow_bioshroom"
+    ],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  },
+	"overrides": [
+    {
+      "type": "replace_recipe_types",
+      "wood": "small_oak",
+      "recipe_types": ["log","wood"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "blue_bioshroom",
+      "recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "stem", "hyphae"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "green_bioshroom",
+      "recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "stem", "hyphae"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "pink_bioshroom",
+      "recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "stem", "hyphae"]
+    },
+    {
+      "type": "replace_recipe_types",
+      "wood": "yellow_bioshroom",
+      "recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "stem", "hyphae"]
+    }
+  ]
+}

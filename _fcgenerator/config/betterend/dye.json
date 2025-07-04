@@ -1,0 +1,19 @@
+{
+	"recipes": [
+		{"input": "umbrella_moss", "color": "yellow", "count": 2},
+		{"input": "creeping_moss", "color": "cyan", "count": 2},
+		{"input": "shadow_plant", "color": "black", "count": 2},
+		{"input": "bushy_grass", "color": "magenta", "count": 2},
+		{"input": "twisted_umbrella_moss", "color": "purple", "count": 2},
+		{"input": "blue_vine_seed", "color": "blue", "count": 2},
+		{"input": "charnia_red", "color": "red", "count": 2},
+		{"input": "charnia_purple", "color": "purple", "count": 2},
+		{"input": "charnia_orange", "color": "orange", "count": 2},
+		{"input": "charnia_light_blue", "color": "light_blue", "count": 2},
+		{"input": "charnia_cyan", "color": "cyan", "count": 2},
+		{"input": "charnia_green", "color": "green", "count": 2},
+		{"input": "tail_moss", "color": "gray", "count": 2},
+		{"input": "twisted_moss", "color": "pink", "count": 2},
+		{"input": "purple_polypore", "color": "purple", "count": 2}
+	]
+}

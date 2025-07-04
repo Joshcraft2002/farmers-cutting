@@ -1,0 +1,7 @@
+{
+  "mod_name": "Biomes O' Plenty",
+  "mod_id": "biomesoplenty",
+  "id_suffix": "bop",
+  "data_pack_version": "v2.0.0",
+  "platforms": ["fabric", "neoforge"]
+}

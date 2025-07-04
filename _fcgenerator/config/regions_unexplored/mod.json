@@ -1,0 +1,7 @@
+{
+  "mod_name": "Regions Unexplored",
+  "mod_id": "regions_unexplored",
+  "id_suffix": "ru",
+  "data_pack_version": "1.1a",
+  "platforms": ["fabric", "neoforge"]
+}
