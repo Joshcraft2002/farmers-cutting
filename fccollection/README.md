@@ -5,27 +5,27 @@ All compiled packs are listed and linked to below (actual content depends on min
 
 <details><summary>NeoForge Collection</summary>
 
-[Farmer's Cutting: The Aether](../aether/README.md)<br>
-[Farmer's Cutting: Biomes O' Plenty](../biomesoplenty/README.md)<br>
-[Farmer's Cutting: Eternal Starlight](../eternal_starlight/README.md)<br>
-[Farmer's Cutting: Nether's Exoticism](../nethers_exoticism/README.md)<br>
-[Farmer's Cutting: Oh The Biomes We've Gone](../biomeswevegone/README.md)<br>
-[Farmer's Cutting: Regions Unexplored](../regions_unexplored/README.md)<br>
-[Farmer's Cutting: Twilight Forest](../twilightforest/README.md)
+- [Farmer's Cutting: The Aether](../aether/README.md)<br>
+- [Farmer's Cutting: Biomes O' Plenty](../biomesoplenty/README.md)<br>
+- [Farmer's Cutting: Eternal Starlight](../eternal_starlight/README.md)<br>
+- [Farmer's Cutting: Nether's Exoticism](../nethers_exoticism/README.md)<br>
+- [Farmer's Cutting: Oh The Biomes We've Gone](../biomeswevegone/README.md)<br>
+- [Farmer's Cutting: Regions Unexplored](../regions_unexplored/README.md)<br>
+- [Farmer's Cutting: Twilight Forest](../twilightforest/README.md)
 
 </details>
 
 <details><summary>Fabric Collection</summary>
 
-[Farmer's Cutting: The Aether](../aether/README.md)<br>
-[Farmer's Cutting: BetterEnd](../betterend/README.md)<br>
-[Farmer's Cutting: BetterNether](../betternether/README.md)<br>
-[Farmer's Cutting: Biomes O' Plenty](../biomesoplenty/README.md)<br>
-[Farmer's Cutting: Cinderscapes](../cinderscapes/README.md)<br>
-[Farmer's Cutting: Eternal Starlight](../eternal_starlight/README.md)<br>
-[Farmer's Cutting: Oh The Biomes We've Gone](../biomeswevegone/README.md)<br>
-[Farmer's Cutting: Regions Unexplored](../regions_unexplored/README.md)<br>
-[Farmer's Cutting: Terrestria](../terrestria/README.md)
+- [Farmer's Cutting: The Aether](../aether/README.md)<br>
+- [Farmer's Cutting: BetterEnd](../betterend/README.md)<br>
+- [Farmer's Cutting: BetterNether](../betternether/README.md)<br>
+- [Farmer's Cutting: Biomes O' Plenty](../biomesoplenty/README.md)<br>
+- [Farmer's Cutting: Cinderscapes](../cinderscapes/README.md)<br>
+- [Farmer's Cutting: Eternal Starlight](../eternal_starlight/README.md)<br>
+- [Farmer's Cutting: Oh The Biomes We've Gone](../biomeswevegone/README.md)<br>
+- [Farmer's Cutting: Regions Unexplored](../regions_unexplored/README.md)<br>
+- [Farmer's Cutting: Terrestria](../terrestria/README.md)
 
 </details><br>
 
