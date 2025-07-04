@@ -1,6 +1,12 @@
 # Farmer's Cutting Collection
 Adds more [Farmer's Delight (NeoForge)](https://modrinth.com/mod/farmers-delight) or [Farmer's Delight Refabricated (Fabric)](https://modrinth.com/mod/farmers-delight-refabricated) cutting board recipes for various mods. This is a single data pack combining all the Farmer's Cutting packs for those who would rather download one pack rather than multiple, at the cost of possibly having unusable recipes.
 
+- Bark, stripping, recycling for all (applicable) wood types
+- More dye from one block high flora that give dye
+- Other cutting recipes depending on mod (refer to the specific Farmer's Cutting pack for more info)
+
+![Wood Cutting](media/woodcutting.png) ![Flora Cutting](media/floracutting.png) ![Other Cutting](media/othercutting.png)
+
 All compiled packs are listed and linked to below (actual content depends on minecraft version):
 
 <details><summary>NeoForge Collection</summary>
@@ -28,9 +34,3 @@ All compiled packs are listed and linked to below (actual content depends on min
 - [Farmer's Cutting: Terrestria](../terrestria/README.md)
 
 </details><br>
-
-- Bark, stripping, recycling for all (applicable) wood types
-- More dye from one block high flora that give dye
-- Other cutting recipes depending on mod (refer to the specific Farmer's Cutting pack for more info)
-
-![Wood Cutting](media/woodcutting.png) ![Flora Cutting](media/floracutting.png) ![Other Cutting](media/othercutting.png)
