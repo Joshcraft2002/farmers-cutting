@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:maple_hanging_sign"
-    }
+    "biomesoplenty:maple_hanging_sign"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

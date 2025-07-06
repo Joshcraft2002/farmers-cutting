@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:mahogany_log"
-    }
+    "biomesoplenty:mahogany_log"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

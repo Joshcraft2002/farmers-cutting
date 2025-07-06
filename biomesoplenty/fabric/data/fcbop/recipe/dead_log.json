@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:dead_log"
-    }
+    "biomesoplenty:dead_log"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

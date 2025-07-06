@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:redwood_trapdoor"
-    }
+    "biomesoplenty:redwood_trapdoor"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

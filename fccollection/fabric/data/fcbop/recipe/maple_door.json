@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:maple_door"
-    }
+    "biomesoplenty:maple_door"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

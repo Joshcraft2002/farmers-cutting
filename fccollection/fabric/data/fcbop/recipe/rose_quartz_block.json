@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:rose_quartz_block"
-    }
+    "biomesoplenty:rose_quartz_block"
   ],
   "result": [
     {

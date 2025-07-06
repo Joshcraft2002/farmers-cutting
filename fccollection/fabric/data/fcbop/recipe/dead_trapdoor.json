@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:dead_trapdoor"
-    }
+    "biomesoplenty:dead_trapdoor"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

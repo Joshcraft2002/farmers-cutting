@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:palm_wood"
-    }
+    "biomesoplenty:palm_wood"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

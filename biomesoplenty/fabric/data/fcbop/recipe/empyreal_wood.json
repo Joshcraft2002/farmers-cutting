@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:empyreal_wood"
-    }
+    "biomesoplenty:empyreal_wood"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

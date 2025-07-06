@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:jacaranda_wood"
-    }
+    "biomesoplenty:jacaranda_wood"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

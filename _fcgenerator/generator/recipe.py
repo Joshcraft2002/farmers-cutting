@@ -38,8 +38,8 @@ PLATFORMS = {
     "neoforge": { "type_key": "type" }
 }
 
-KNIFE_TOOL_TAG = "c:tools/knife"
-SHEARS_TOOL_TAG = "c:tools/shears"
+KNIFE_TOOL_TAG = "#c:tools/knife"
+SHEARS_TOOL_TAG = "#c:tools/shears"
 STRIPPING_SOUND = "minecraft:item.axe.strip"
 
 OVERRIDE_TYPES = {
@@ -89,13 +89,11 @@ def set_item_ability(platform: str, action: str) -> Dict:
         "action": action
     }
 
-def create_base_recipe(ingredient_key: str, ingredient_value: str) -> Dict:
+def create_base_recipe(ingredient_value: str) -> Dict:
     """Create a base structure for all cutting recipes."""
     return {
         "type": "farmersdelight:cutting",
-        "ingredients": [
-            {ingredient_key: ingredient_value}
-        ]
+        "ingredients": [ingredient_value]
     }
 
 def create_recipe_result(item_id: str, count: int = 1) -> Dict:
@@ -114,7 +112,7 @@ def generate_cutting_recipe(mod_data: ModData, wood_type: str, platform: str,
     default_ingredient = recipe_map.get_ingredient_id(mod_data.mod_id, wood_type)
     ingredient = wood_override.get('ingredient', default_ingredient) if wood_override else default_ingredient
     
-    recipe = create_base_recipe("item", ingredient)
+    recipe = create_base_recipe(ingredient)
     recipe["tool"] = set_item_ability(platform, TOOL_ACTIONS["axe"])
 
     if recipe_map.recipe_type in RECIPE_TYPES["PLANKS_RECYCLE"]:
@@ -138,35 +136,28 @@ def generate_cutting_recipe(mod_data: ModData, wood_type: str, platform: str,
 def generate_dye_recipe(mod_id: str, input_item: str, color: str, count: int) -> Dict:   
     """Generate a single dye cutting recipe."""
     
-    is_tag = input_item.startswith('#')
-    ingredient_key = "tag" if is_tag else "item"
-    ingredient_value = input_item[1:] if is_tag else f"{mod_id}:{input_item}"
-    
-    recipe = create_base_recipe(ingredient_key, ingredient_value)
+    is_tag = input_item.startswith('#')    
+    recipe = create_base_recipe(input_item if is_tag else f"{mod_id}:{input_item}")
     recipe["result"] = [
         create_recipe_result(f"minecraft:{color}_dye", count)
     ]
-    recipe["tool"] = {"tag": KNIFE_TOOL_TAG}    
+    recipe["tool"] = KNIFE_TOOL_TAG
     
     return recipe
 
 def generate_custom_recipe(recipe_data: Dict, platform: str) -> Dict:
     """Generate a single custom cutting recipe."""
 
-    is_tag = recipe_data['ingredient'].startswith('#')
-    ingredient_key = "tag" if is_tag else "item"
-    ingredient_value = recipe_data['ingredient'][1:] if is_tag else recipe_data['ingredient']
-
-    recipe = create_base_recipe(ingredient_key, ingredient_value)
+    recipe = create_base_recipe(recipe_data['ingredient'])
     
     recipe["result"] = [create_recipe_result(recipe_data['result'], recipe_data['count'])]
     if 'side_product' in recipe_data:
         recipe["result"].append(create_recipe_result(recipe_data['side_product']))
 
     if recipe_data['tool'] == "knife":
-        recipe["tool"] = {"tag": KNIFE_TOOL_TAG}
+        recipe["tool"] = KNIFE_TOOL_TAG
     elif recipe_data['tool'] == "shears":
-        recipe["tool"] = {"tag": SHEARS_TOOL_TAG}
+        recipe["tool"] = SHEARS_TOOL_TAG
     else:
         recipe["tool"] = set_item_ability(platform, TOOL_ACTIONS[recipe_data['tool']])
 

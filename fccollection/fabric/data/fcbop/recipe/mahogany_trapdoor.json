@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:mahogany_trapdoor"
-    }
+    "biomesoplenty:mahogany_trapdoor"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",

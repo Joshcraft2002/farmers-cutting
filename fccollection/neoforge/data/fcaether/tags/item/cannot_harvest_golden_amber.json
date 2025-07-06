@@ -1,8 +1,0 @@
-{
-    "remove": [
-        "#aether:golden_amber_harvesters"
-    ],
-    "values": [
-        "#minecraft:axes"
-    ]
-}

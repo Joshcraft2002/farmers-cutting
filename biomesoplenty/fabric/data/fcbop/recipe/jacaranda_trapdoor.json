@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "biomesoplenty:jacaranda_trapdoor"
-    }
+    "biomesoplenty:jacaranda_trapdoor"
   ],
   "tool": {
     "fabric:type": "farmersdelight:item_ability",
