@@ -3,7 +3,8 @@
   "pack_format": 71,
   "mods": [
     "biomesoplenty",
-    "cinderscapes"
+    "cinderscapes",
+    "terrestria"
   ],
   "create_collection": true,
   "collection_data": {
