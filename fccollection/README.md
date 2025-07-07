@@ -30,7 +30,8 @@ All compiled packs are listed and linked to below (actual content depends on min
 - [Farmer's Cutting: Cinderscapes](../cinderscapes/README.md)<br>
 - [Farmer's Cutting: Eternal Starlight](../eternal_starlight/README.md)<br>
 - [Farmer's Cutting: Oh The Biomes We've Gone](../biomeswevegone/README.md)<br>
+- [Farmer's Cutting: Promenade](../promenade/README.md)<br>
 - [Farmer's Cutting: Regions Unexplored](../regions_unexplored/README.md)<br>
 - [Farmer's Cutting: Terrestria](../terrestria/README.md)
 
-</details><br>
+</details>

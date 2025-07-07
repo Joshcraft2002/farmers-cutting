@@ -9,6 +9,10 @@
     "load": [
       "."
     ],
+    "supported_formats": {
+      "min_inclusive": 71,
+      "max_inclusive": 81
+    },
     "zipped": true
   }
 }

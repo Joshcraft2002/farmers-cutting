@@ -14,6 +14,7 @@
     "id_suffix": "collection",
     "description": "All Farmer's Cutting recipes combined",
     "data_pack_version": "2.0",
+    "max_inclusive_pack_format": 81,
     "enable_logging": false
   }
 }
