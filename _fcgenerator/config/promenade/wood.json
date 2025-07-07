@@ -1,0 +1,18 @@
+{
+	"recipes": {
+		"woods": [
+			"sakura", 
+			"maple", 
+			"palm",
+			"dark_amaranth"
+		],
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+	},
+	"overrides": [
+		{
+			"type": "replace_recipe_types",
+			"wood": "dark_amaranth",
+			"recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "stem", "hyphae"]
+		}
+	]
+}
