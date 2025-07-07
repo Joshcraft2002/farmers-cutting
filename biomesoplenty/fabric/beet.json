@@ -7,6 +7,11 @@
     "description": "Adds Farmer's Delight cutting recipes for Biomes O' Plenty",
     "load": [
       "."
-    ]
+    ],
+    "supported_formats": {
+      "min_inclusive": 71,
+      "max_inclusive": 80
+    },
+    "zipped": true
   }
 }

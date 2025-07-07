@@ -1,10 +1,17 @@
-# 0.3.0 (2025-07-06)
+# 0.3.0 (2025-07-07)
 - Updated recipe output format for 1.21.5
+- Moved collection fields in `generator.json` into their own `collection_data` object
+  - Field names are closer to those in other `mod.json` config files
+- Added support for `supported_formats`
+  - Defining `max_inclusive_pack_format` in the `mod.json` config file will generate this field, with `min_inclusive` set to the pack format specified in `generator.json`
+  - This field can also be defined in `collection_data` to affect the fccollection datapack
+  - Config template [mod.json](config/_template/mod.json) updated accordingly
+- Fixed `wood.json` file reading still checking for overrides in `mods.json`
 
 # 0.2.1 (2025-06-06)
 - Further customization for the collection data pack in `generator.json` config
   - Also added option not to generate a collection data pack
-- added `extras` example in the [template](config/_template) config
+- Added `extras` example in the [template](config/_template) config
 
 # 0.2.0 (2025-06-06)
 

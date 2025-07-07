@@ -20,6 +20,7 @@ class ModData:
     data_pack_version: str
     pack_format: int
     recipes: ModRecipes
+    max_inclusive_pack_format: int = None
     enable_logging: bool = False
 
 @dataclass

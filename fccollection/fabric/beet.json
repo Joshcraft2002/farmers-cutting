@@ -7,6 +7,7 @@
     "description": "All Farmer's Cutting recipes combined",
     "load": [
       "."
-    ]
+    ],
+    "zipped": true
   }
 }

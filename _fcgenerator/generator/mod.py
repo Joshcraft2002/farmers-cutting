@@ -16,11 +16,11 @@ def process_mod_config(mod_id: str, pack_format: str, minecraft_version: str):
             wood_info = read_json_config(mod_config_dir / 'wood.json')
             woods = wood_info['recipes'].get('woods', [])
             recipe_types = wood_info['recipes'].get('types', [])
-            overrides = wood_info.get('overrides', []) or mod_info.get('overrides', [])
+            overrides = wood_info.get('overrides', [])
         except (FileNotFoundError, ValueError, KeyError):
             woods = []
             recipe_types = []
-            overrides = mod_info.get('overrides', [])
+            overrides = []
         # Optional: dye.json
         try:
             dye_info = read_json_config(mod_config_dir / 'dye.json')
@@ -48,6 +48,7 @@ def process_mod_config(mod_id: str, pack_format: str, minecraft_version: str):
             id_suffix=mod_info['id_suffix'],
             data_pack_version=mod_info['data_pack_version'],
             pack_format=pack_format,
+            max_inclusive_pack_format=mod_info.get('max_inclusive_pack_format', None),
             platforms=mod_info.get('platforms', [DEFAULT_PLATFORM]),
             recipes= recipes,
             enable_logging=mod_info.get('enable_logging', False)

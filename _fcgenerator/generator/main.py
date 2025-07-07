@@ -23,15 +23,17 @@ def process_mods(generator_config: Dict) -> None:
 def generate_collection(generator_config: Dict):
     """Compile all generated recipes into a single collection."""
 
+    collection_config = generator_config.get('collection_data')
     collection_data = ModData(
-        mod_id=generator_config['collection_id'],
-        mod_name=generator_config['collection_name'],
-        id_suffix=generator_config['collection_id_suffix'],
+        mod_id=collection_config['mod_id'],
+        mod_name=collection_config['mod_name'],
+        id_suffix=collection_config['id_suffix'],
         platforms=None, 
         recipes=None,  # Both Irrelevant for this
-        data_pack_version=generator_config['collection_version'],
+        data_pack_version=collection_config['data_pack_version'],
         pack_format=generator_config['pack_format'],
-        enable_logging=generator_config.get('enable_logging', False)
+        max_inclusive_pack_format=collection_config.get('max_inclusive_pack_format', None),
+        enable_logging=collection_config.get('enable_logging', False)
     )
 
     # Clear up the previous collection files
@@ -55,7 +57,7 @@ def generate_collection(generator_config: Dict):
             collection_data,
             platform,
             generator_config["minecraft_version"],
-            generator_config["collection_description"]
+            collection_config["description"]
             )
 
 def main():
