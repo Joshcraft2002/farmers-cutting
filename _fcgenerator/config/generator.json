@@ -2,7 +2,8 @@
   "minecraft_version": "1.21.5",
   "pack_format": 71,
   "mods": [
-    "biomesoplenty"
+    "biomesoplenty",
+    "cinderscapes"
   ],
   "create_collection": true,
   "collection_data": {
@@ -10,7 +11,7 @@
     "mod_id": "collection",
     "id_suffix": "collection",
     "description": "All Farmer's Cutting recipes combined",
-    "data_pack_version": "1.0",
+    "data_pack_version": "2.0",
     "enable_logging": false
   }
 }

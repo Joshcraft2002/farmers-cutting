@@ -3,5 +3,6 @@
   "mod_id": "cinderscapes",
   "id_suffix": "cs",
   "data_pack_version": "1.0",
+  "max_inclusive_pack_format": 81,
   "platforms": ["fabric"]
 }
