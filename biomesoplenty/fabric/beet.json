@@ -1,7 +1,7 @@
 {
   "id": "farmers-cutting-bop",
   "name": "Farmer's Cutting: Biomes O' Plenty",
-  "version": "1.21.5-3.0.0-fabric",
+  "version": "1.21.5-3.0.1-fabric",
   "data_pack": {
     "pack_format": 71,
     "description": "Adds Farmer's Delight cutting recipes for Biomes O' Plenty",
@@ -10,7 +10,7 @@
     ],
     "supported_formats": {
       "min_inclusive": 71,
-      "max_inclusive": 80
+      "max_inclusive": 81
     },
     "zipped": true
   }
