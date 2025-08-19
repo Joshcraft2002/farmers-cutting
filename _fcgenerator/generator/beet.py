@@ -38,6 +38,8 @@ def generate_beet_files(
         "data_pack": data_pack
     }
 
+    write_json_file(base_dir / "beet.json", beet, log_enabled=mod_data.enable_logging)
+
     # beet build file is zipped
     data_pack["zipped"] = True
 
@@ -50,4 +52,4 @@ def generate_beet_files(
     }
 
     write_json_file(base_dir / "beet-build.json", beet_build, log_enabled=mod_data.enable_logging)
-    write_json_file(base_dir / "beet.json", beet, log_enabled=mod_data.enable_logging)
+    

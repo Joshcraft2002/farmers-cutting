@@ -1,3 +1,6 @@
+# 0.3.0a (2025-08-19)
+- `beet.json` should no longer cause output to be zipped
+
 # 0.3.0 (2025-07-07)
 - Updated recipe output format for 1.21.5
 - Moved collection fields in `generator.json` into their own `collection_data` object
