@@ -1,10 +1,10 @@
 {
   "id": "farmers-cutting-collection",
   "name": "Farmer's Cutting: Collection",
-  "version": "1.21.5-1.0-neoforge",
+  "version": "1.21.8-2.0-neoforge",
   "output": "build",
   "data_pack": {
-    "pack_format": 71,
+    "pack_format": 81,
     "description": "All Farmer's Cutting recipes combined",
     "load": [
       "."
