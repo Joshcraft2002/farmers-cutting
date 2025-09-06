@@ -1,0 +1,81 @@
+{
+  "name": "Nature's Spirit",
+  "namespace": "natures_spirit",
+  "id_suffix": "ns",
+  "data_pack_version": "1.0",
+  "pack_format": 15,
+  "platforms": ["fabric", "forge"],
+  "wood_recipes": {
+    "woods": [
+      "redwood", 
+      "sugi", 
+      "wisteria",
+      "fir",
+      "willow",
+      "aspen",
+      "maple",
+      "cypress",
+      "olive",
+      "joshua",
+      "ghaf",
+      "palo_verde",
+      "wisteria",
+      "coconut",
+      "cedar",
+      "larch",
+      "mahogany",
+      "saxaul"
+    ],
+    "types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+  },
+  "dye_recipes": [
+    {"input": "ornate_succulent", "color": "red", "count": 2},
+    {"input": "drowsy_succulent", "color": "lime", "count": 2},
+    {"input": "aureate_succulent", "color": "yellow", "count": 2},
+    {"input": "sage_succulent", "color": "green", "count": 2},
+    {"input": "foamy_succulent", "color": "light_blue", "count": 2},
+    {"input": "imperial_succulent", "color": "purple", "count": 2},
+    {"input": "regal_succulent", "color": "pink", "count": 2},
+    {"input": "anemone", "color": "magenta", "count": 2},
+    {"input": "dwarf_blossoms", "color": "pink", "count": 2},
+    {"input": "protea", "color": "pink", "count": 2},
+    {"input": "hibiscus", "color": "red", "count": 2},
+    {"input": "blue_iris", "color": "light_blue", "count": 2},
+    {"input": "black_iris", "color": "black", "count": 2},
+    {"input": "helvola_flower", "color": "white", "count": 2},
+    {"input": "lotus_flower", "color": "pink", "count": 2}
+  ],
+  "overrides": [
+    {
+      "type": "replace_recipe_types",
+      "wood": "joshua",
+      "recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "log"]
+    }
+  ],
+  "custom_recipes": [
+    {
+      "ingredient": "natures_spirit:alluaudia",
+      "result": "natures_spirit:stripped_alluaudia",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "knife",
+      "filename": "alluaudia"
+    },
+    {
+      "ingredient": "natures_spirit:alluaudia_bundle",
+      "result": "natures_spirit:stripped_alluaudia_bundle",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "knife",
+      "filename": "alluaudia_bundle"
+    },
+    {
+      "ingredient": "natures_spirit:joshua_bundle",
+      "result": "natures_spirit:stripped_joshua_bundle",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "knife",
+      "filename": "joshua_bundle"
+    }
+  ]
+}

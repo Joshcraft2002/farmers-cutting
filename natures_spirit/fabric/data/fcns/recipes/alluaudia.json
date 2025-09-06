@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "natures_spirit:alluaudia"
+    }
+  ],
+  "result": [
+    {
+      "item": "natures_spirit:stripped_alluaudia"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

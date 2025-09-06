@@ -8,6 +8,7 @@ Current Mods are:
 - [Biomes O' Plenty](biomesoplenty/README.md)
 - [Blue Skies](blue_skies/README.md)
 - [Cinderscapes](cinderscapes/README.md)
+- [Nature's Spirit](natures_spirit/README.md)
 - [Nether's Exoticism](nethers_exoticism/README.md)
 - [Oh The Biomes We've Gone](biomeswevegone/README.md)
 - [Promenade](promenade/README.md)
