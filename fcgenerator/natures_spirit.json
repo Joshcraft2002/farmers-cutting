@@ -58,7 +58,7 @@
       "result": "natures_spirit:stripped_alluaudia",
       "count": 1,
       "side_product": "farmersdelight:tree_bark",
-      "tool": "knife",
+      "tool": "axe",
       "filename": "alluaudia"
     },
     {
@@ -66,7 +66,7 @@
       "result": "natures_spirit:stripped_alluaudia_bundle",
       "count": 1,
       "side_product": "farmersdelight:tree_bark",
-      "tool": "knife",
+      "tool": "axe",
       "filename": "alluaudia_bundle"
     },
     {
@@ -74,7 +74,7 @@
       "result": "natures_spirit:stripped_joshua_bundle",
       "count": 1,
       "side_product": "farmersdelight:tree_bark",
-      "tool": "knife",
+      "tool": "axe",
       "filename": "joshua_bundle"
     }
   ]
