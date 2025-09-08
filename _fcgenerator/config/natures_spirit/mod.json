@@ -1,0 +1,7 @@
+{
+  "mod_name": "Nature's Spirit",
+  "mod_id": "natures_spirit",
+  "id_suffix": "ns",
+  "data_pack_version": "1.0",
+  "platforms": ["fabric", "neoforge"]
+}

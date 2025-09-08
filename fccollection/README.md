@@ -14,6 +14,7 @@ All compiled packs are listed and linked to below (actual content depends on min
 - [Farmer's Cutting: The Aether](../aether/README.md)<br>
 - [Farmer's Cutting: Biomes O' Plenty](../biomesoplenty/README.md)<br>
 - [Farmer's Cutting: Eternal Starlight](../eternal_starlight/README.md)<br>
+- [Farmer's Cutting: Nature's Spirit](../natures_spirit/README.md)<br>
 - [Farmer's Cutting: Nether's Exoticism](../nethers_exoticism/README.md)<br>
 - [Farmer's Cutting: Oh The Biomes We've Gone](../biomeswevegone/README.md)<br>
 - [Farmer's Cutting: Regions Unexplored](../regions_unexplored/README.md)<br>
@@ -29,6 +30,7 @@ All compiled packs are listed and linked to below (actual content depends on min
 - [Farmer's Cutting: Biomes O' Plenty](../biomesoplenty/README.md)<br>
 - [Farmer's Cutting: Cinderscapes](../cinderscapes/README.md)<br>
 - [Farmer's Cutting: Eternal Starlight](../eternal_starlight/README.md)<br>
+- [Farmer's Cutting: Nature's Spirit](../natures_spirit/README.md)<br>
 - [Farmer's Cutting: Oh The Biomes We've Gone](../biomeswevegone/README.md)<br>
 - [Farmer's Cutting: Regions Unexplored](../regions_unexplored/README.md)<br>
 - [Farmer's Cutting: Terrestria](../terrestria/README.md)

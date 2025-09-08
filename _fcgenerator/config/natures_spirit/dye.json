@@ -1,0 +1,19 @@
+{
+	"recipes": [
+		{"input": "ornate_succulent", "color": "red", "count": 2},
+		{"input": "drowsy_succulent", "color": "lime", "count": 2},
+		{"input": "aureate_succulent", "color": "yellow", "count": 2},
+		{"input": "sage_succulent", "color": "green", "count": 2},
+		{"input": "foamy_succulent", "color": "light_blue", "count": 2},
+		{"input": "imperial_succulent", "color": "purple", "count": 2},
+		{"input": "regal_succulent", "color": "pink", "count": 2},
+		{"input": "anemone", "color": "magenta", "count": 2},
+		{"input": "dwarf_blossoms", "color": "pink", "count": 2},
+		{"input": "protea", "color": "pink", "count": 2},
+		{"input": "hibiscus", "color": "red", "count": 2},
+		{"input": "blue_iris", "color": "light_blue", "count": 2},
+		{"input": "black_iris", "color": "black", "count": 2},
+		{"input": "helvola_flower", "color": "white", "count": 2},
+		{"input": "lotus_flower", "color": "pink", "count": 2}
+	]
+}

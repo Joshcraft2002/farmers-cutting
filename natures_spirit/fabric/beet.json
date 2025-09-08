@@ -1,0 +1,12 @@
+{
+  "id": "farmers-cutting-ns",
+  "name": "Farmer's Cutting: Nature's Spirit",
+  "version": "1.21.1-1.0-fabric",
+  "data_pack": {
+    "pack_format": 48,
+    "description": "Adds Farmer's Delight cutting recipes for Nature's Spirit",
+    "load": [
+      "."
+    ]
+  }
+}

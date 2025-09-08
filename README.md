@@ -12,6 +12,7 @@ Current Mods are:
 - [Biomes O' Plenty](biomesoplenty/README.md)
 - [Cinderscapes](cinderscapes/README.md)
 - [Eternal Starlight](eternal_starlight/README.md)
+- [Nature's Spirit](natures_spirit/README.md)
 - [Nether's Exoticism](nethers_exoticism/README.md)
 - [Oh The Biomes We've Gone](biomeswevegone/README.md)
 - [Regions Unexplored](regions_unexplored/README.md)

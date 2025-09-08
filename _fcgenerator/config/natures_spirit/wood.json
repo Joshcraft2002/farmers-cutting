@@ -1,0 +1,32 @@
+{
+	"recipes": {
+		"woods": [
+			"redwood", 
+			"sugi", 
+			"wisteria",
+			"fir",
+			"willow",
+			"aspen",
+			"maple",
+			"cypress",
+			"olive",
+			"joshua",
+			"ghaf",
+			"palo_verde",
+			"wisteria",
+			"coconut",
+			"cedar",
+			"larch",
+			"mahogany",
+			"saxaul"
+		],
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+	},
+	"overrides": [
+		{
+			"type": "replace_recipe_types",
+			"wood": "joshua",
+			"recipe_types": ["door", "hanging_sign", "sign", "trapdoor", "log"]
+		}
+	]
+}

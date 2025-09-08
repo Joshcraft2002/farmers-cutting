@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "ingredient": "natures_spirit:alluaudia",
+      "result": "natures_spirit:stripped_alluaudia",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "axe",
+      "filename": "alluaudia"
+    },
+    {
+      "ingredient": "natures_spirit:alluaudia_bundle",
+      "result": "natures_spirit:stripped_alluaudia_bundle",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "axe",
+      "filename": "alluaudia_bundle"
+    },
+    {
+      "ingredient": "natures_spirit:joshua_bundle",
+      "result": "natures_spirit:stripped_joshua_bundle",
+      "count": 1,
+      "side_product": "farmersdelight:tree_bark",
+      "tool": "axe",
+      "filename": "joshua_bundle"
+    }
+  ]
+}
