@@ -3,6 +3,17 @@ Very incomplete documentation, I'll fix it up at a later time (should this be a 
 # Farmer's Cutting Generator (fcgenerator)
 Generates [beet](https://mcbeet.dev/) projects for building Farmer's Cutting datapacks.
 
+### Versioning
+```x.yz```
+#### Farmer's Cutting
+- `x`: New mod items
+- `y`: Mod changes
+- `z`: Datapack patch
+#### Farmer's Collection
+- `x`: New Minecraft version (new mod collection)
+- `y`: Mod Added/Changed
+- `z`: Datapack patch
+
 ## Project Structure
 
 ```
