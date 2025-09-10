@@ -2,7 +2,7 @@
   "mod_name": "Promenade",
   "mod_id": "promenade",
   "id_suffix": "promenade",
-  "data_pack_version": "1.1",
-  "max_inclusive_pack_format": 80,
+  "data_pack_version": "1.1a",
+  "max_inclusive_pack_format": 81,
   "platforms": ["fabric"]
 }
