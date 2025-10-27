@@ -18,9 +18,9 @@ class ModData:
     id_suffix: str
     platforms: List[str]
     data_pack_version: str
-    pack_format: int
     recipes: ModRecipes
-    max_inclusive_pack_format: int = None
+    min_format: List[int]
+    max_format: List[int]
     enable_logging: bool = False
 
 @dataclass

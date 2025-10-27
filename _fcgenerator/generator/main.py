@@ -18,7 +18,7 @@ def process_mods(generator_config: Dict) -> None:
 
     # Process each mod
     for mod in generator_config['mods']:
-        process_mod_config(mod, generator_config['pack_format'], generator_config['minecraft_version'])
+        process_mod_config(mod, generator_config['minecraft_version'])
 
 def generate_collection(generator_config: Dict):
     """Compile all generated recipes into a single collection."""
@@ -31,8 +31,8 @@ def generate_collection(generator_config: Dict):
         platforms=None, 
         recipes=None,  # Both Irrelevant for this
         data_pack_version=collection_config['data_pack_version'],
-        pack_format=generator_config['pack_format'],
-        max_inclusive_pack_format=collection_config.get('max_inclusive_pack_format', None),
+        min_format=collection_config['min_format'],
+        max_format=collection_config['max_format'],
         enable_logging=collection_config.get('enable_logging', False)
     )
 

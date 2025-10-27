@@ -3,7 +3,8 @@
   "mod_id": "examplemod",
   "id_suffix": "em",
   "data_pack_version": "1.0",
-  "max_inclusive_pack_format": 80,
+  "min_format": [ 88, 0 ],
+  "max_format": [ 88, 0 ],
   "platforms": ["fabric", "neoforge"],
   "enable_logging": true
 }

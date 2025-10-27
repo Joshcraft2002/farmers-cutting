@@ -1,3 +1,7 @@
+# 0.3.1 (2025-10-08)
+- Updated `mod.json` and `generator.json` format to match the new `pack.mcmeta` format in 1.21.9
+  - Template updated accordingly
+
 # 0.3.0a (2025-08-19)
 - `beet.json` should no longer cause output to be zipped
 

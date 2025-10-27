@@ -16,20 +16,11 @@ def generate_beet_files(
     
     # basic beet file
     data_pack = {
-        "pack_format": mod_data.pack_format,
+        "min_format": mod_data.min_format,
+        "max_format": mod_data.max_format,
         "description": desc,
         "load": ["."]
     }
-
-    # if max inclusive pack format is set, add supported formats field
-    if (
-        mod_data.max_inclusive_pack_format is not None
-        and mod_data.max_inclusive_pack_format > mod_data.pack_format
-    ):
-        data_pack["supported_formats"] = {
-            "min_inclusive": mod_data.pack_format,
-            "max_inclusive": mod_data.max_inclusive_pack_format
-        }
 
     beet = {
         "id": f"farmers-cutting-{mod_data.id_suffix}",

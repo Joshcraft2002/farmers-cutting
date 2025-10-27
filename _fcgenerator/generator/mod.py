@@ -6,7 +6,7 @@ from .models import ModData, ModRecipes
 from .recipe import generate_recipes
 from .utils import copy_tree
 
-def process_mod_config(mod_id: str, pack_format: str, minecraft_version: str):
+def process_mod_config(mod_id: str, minecraft_version: str):
     mod_config_dir = CONFIG_DIR / mod_id
     try:
         # Load required mod.json
@@ -47,8 +47,8 @@ def process_mod_config(mod_id: str, pack_format: str, minecraft_version: str):
             mod_name=mod_info['mod_name'],
             id_suffix=mod_info['id_suffix'],
             data_pack_version=mod_info['data_pack_version'],
-            pack_format=pack_format,
-            max_inclusive_pack_format=mod_info.get('max_inclusive_pack_format', None),
+            min_format=mod_info['min_format'],
+            max_format=mod_info['max_format'],
             platforms=mod_info.get('platforms', [DEFAULT_PLATFORM]),
             recipes= recipes,
             enable_logging=mod_info.get('enable_logging', False)
