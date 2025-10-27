@@ -3,6 +3,7 @@
   "mod_id": "biomesoplenty",
   "id_suffix": "bop",
   "data_pack_version": "4.0",
-  "max_inclusive_pack_format": 81,
+  "min_format": [ 88, 0 ],
+  "max_format": [ 88, 0 ],
   "platforms": ["fabric"]
 }
