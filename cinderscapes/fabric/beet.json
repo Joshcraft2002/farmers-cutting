@@ -1,9 +1,16 @@
 {
   "id": "farmers-cutting-cs",
   "name": "Farmer's Cutting: Cinderscapes",
-  "version": "1.21.8-1.0-fabric",
+  "version": "1.21.10-1.0-fabric",
   "data_pack": {
-    "pack_format": 81,
+    "min_format": [
+      88,
+      0
+    ],
+    "max_format": [
+      88,
+      0
+    ],
     "description": "Adds Farmer's Delight cutting recipes for Cinderscapes",
     "load": [
       "."

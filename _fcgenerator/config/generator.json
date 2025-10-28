@@ -2,6 +2,8 @@
   "minecraft_version": "1.21.10",
   "mods": [
     "biomesoplenty",
+    "cinderscapes",
+    "promenade",
     "terrestria"
   ],
   "create_collection": false,
