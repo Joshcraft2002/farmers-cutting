@@ -6,7 +6,7 @@
     "promenade",
     "terrestria"
   ],
-  "create_collection": false,
+  "create_collection": true,
   "collection_data": {
     "mod_name": "Collection",
     "mod_id": "collection",
