@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "#biomeswevegone:dye/makes_cyan"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:cyan_dye"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}
