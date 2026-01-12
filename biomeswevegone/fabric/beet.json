@@ -1,15 +1,15 @@
 {
   "id": "farmers-cutting-bwg",
   "name": "Farmer's Cutting: Oh The Biomes We've Gone",
-  "version": "1.21.10-2.1-fabric",
+  "version": "1.21.11-2.1-fabric",
   "data_pack": {
     "min_format": [
       88,
       0
     ],
     "max_format": [
-      88,
-      0
+      94,
+      1
     ],
     "description": "Adds Farmer's Delight cutting recipes for Oh The Biomes We've Gone",
     "load": [
