@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "eternal_starlight:starlight_mangrove_trapdoor"
+      "item": "eternal_starlight:banyin_trapdoor"
     }
   ],
   "tool": {
@@ -13,7 +13,7 @@
     {
       "item": {
         "count": 1,
-        "id": "eternal_starlight:starlight_mangrove_planks"
+        "id": "eternal_starlight:banyin_planks"
       }
     }
   ]
