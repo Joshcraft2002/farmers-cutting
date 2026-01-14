@@ -1,7 +1,8 @@
 {
   "minecraft_version": "1.21.11",
   "mods": [
-    "biomeswevegone"
+    "biomeswevegone",
+    "terrestria"
   ],
   "create_collection": false,
   "collection_data": {

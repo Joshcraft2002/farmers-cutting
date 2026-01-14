@@ -1,15 +1,15 @@
 {
   "id": "farmers-cutting-terrestria",
   "name": "Farmer's Cutting: Terrestria",
-  "version": "1.21.10-1.0-fabric",
+  "version": "1.21.11-1.0-fabric",
   "data_pack": {
     "min_format": [
       88,
       0
     ],
     "max_format": [
-      88,
-      0
+      94,
+      1
     ],
     "description": "Adds Farmer's Delight cutting recipes for Terrestria",
     "load": [

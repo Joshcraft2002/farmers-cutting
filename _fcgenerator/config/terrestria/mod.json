@@ -4,6 +4,6 @@
   "id_suffix": "terrestria",
   "data_pack_version": "1.0",
   "min_format": [ 88, 0 ],
-  "max_format": [ 88, 0 ],
+  "max_format": [ 94, 1 ],
   "platforms": ["fabric"]
 }
