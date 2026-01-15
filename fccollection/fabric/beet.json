@@ -1,15 +1,15 @@
 {
   "id": "farmers-cutting-collection",
   "name": "Farmer's Cutting: Collection",
-  "version": "1.21.10-4.1-fabric",
+  "version": "1.21.11-5.0-fabric",
   "data_pack": {
     "min_format": [
-      88,
-      0
+      94,
+      1
     ],
     "max_format": [
-      88,
-      0
+      94,
+      1
     ],
     "description": "All Farmer's Cutting recipes combined",
     "load": [
