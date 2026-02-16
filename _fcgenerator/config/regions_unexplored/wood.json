@@ -31,7 +31,7 @@
     {
       "type": "replace_recipe_types",
       "wood": "small_oak",
-      "recipe_types": ["log","wood"]
+      "recipe_types": ["log"]
     },
     {
       "type": "replace_recipe_types",
