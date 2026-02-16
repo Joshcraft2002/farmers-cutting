@@ -1,3 +1,7 @@
+# 0.1.4 (2026-2-16)
+Now includes `minecraft` version field from `generator_config.json` in generated beet files
+> beet 0.113.0 and above allows specifying minecraft versions
+
 # 0.1.3-bp1 (2024-11-23)
 
 ## Fixes

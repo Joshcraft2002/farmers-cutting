@@ -232,7 +232,8 @@ def generate_beet_files(config: ModConfig, platform: str, minecraft_version: str
             "description": f"Adds Farmer's Delight cutting recipes for {config.name}",
             "load": ["."],
             "zipped": True
-        }
+        },
+        "minecraft": minecraft_version
     }
 
     beet = {
@@ -243,7 +244,8 @@ def generate_beet_files(config: ModConfig, platform: str, minecraft_version: str
             "pack_format": config.pack_format,
             "description": f"Adds Farmer's Delight cutting recipes for {config.name}",
             "load": ["."]
-        }
+        },
+        "minecraft": minecraft_version
     }
 
     return beet_build, beet
