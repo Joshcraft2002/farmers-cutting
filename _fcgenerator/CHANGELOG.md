@@ -1,3 +1,7 @@
+# 0.2.1a (2026-02-18)
+- Changed custom recipe tool `shears` result from `c:tools/shears` to `c:tools/shear`
+  - Added `shear` as a possible value for the tool field, interchangable with `shears`
+
 # 0.2.1 (2025-06-06)
 - Further customization for the collection data pack in `generator.json` config
   - Also added option not to generate a collection data pack

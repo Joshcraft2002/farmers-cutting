@@ -172,5 +172,5 @@ Defines custom cutting recipes.
 - `result`: Output item.
 - `count`: Number of result items.
 - `side_product`: (Optional) Additional output item.
-- `tool`: Tool required (`axe`, `axe_strip`, `pickaxe`, `knife`).
+- `tool`: Tool required (`axe`, `axe_strip`, `pickaxe`, `knife`, `shear`).
 - `filename`: Name for the generated recipe file.

@@ -39,7 +39,7 @@ PLATFORMS = {
 }
 
 KNIFE_TOOL_TAG = "c:tools/knife"
-SHEARS_TOOL_TAG = "c:tools/shears"
+SHEARS_TOOL_TAG = "c:tools/shear"
 STRIPPING_SOUND = "minecraft:item.axe.strip"
 
 OVERRIDE_TYPES = {
@@ -165,7 +165,7 @@ def generate_custom_recipe(recipe_data: Dict, platform: str) -> Dict:
 
     if recipe_data['tool'] == "knife":
         recipe["tool"] = {"tag": KNIFE_TOOL_TAG}
-    elif recipe_data['tool'] == "shears":
+    elif recipe_data['tool'] in ("shears", "shear"):
         recipe["tool"] = {"tag": SHEARS_TOOL_TAG}
     else:
         recipe["tool"] = set_item_ability(platform, TOOL_ACTIONS[recipe_data['tool']])
