@@ -1,0 +1,8 @@
+{
+  "mod_name": "Quark",
+  "mod_id": "quark",
+  "id_suffix": "quark",
+  "data_pack_version": "1.0",
+  "platforms": ["neoforge"],
+  "enable_logging": false
+}

@@ -2,18 +2,18 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "regions_unexplored:small_oak_wood"
+      "item": "quark:blossom_wood"
     }
   ],
   "tool": {
-    "fabric:type": "farmersdelight:item_ability",
+    "type": "farmersdelight:item_ability",
     "action": "axe_strip"
   },
   "result": [
     {
       "item": {
         "count": 1,
-        "id": "regions_unexplored:stripped_small_oak_wood"
+        "id": "quark:stripped_blossom_wood"
       }
     },
     {

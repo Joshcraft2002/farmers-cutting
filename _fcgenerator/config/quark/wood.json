@@ -1,0 +1,10 @@
+{
+	"recipes": {
+		"woods": [
+			"ancient", 
+			"azalea", 
+			"blossom"
+		],
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
+	}
+}

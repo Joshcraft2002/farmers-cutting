@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "regions_unexplored:small_oak_wood"
+      "item": "quark:azalea_log"
     }
   ],
   "tool": {
@@ -13,7 +13,7 @@
     {
       "item": {
         "count": 1,
-        "id": "regions_unexplored:stripped_small_oak_wood"
+        "id": "quark:stripped_azalea_log"
       }
     },
     {

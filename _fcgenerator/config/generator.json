@@ -11,11 +11,12 @@
     "eternal_starlight",
     "natures_spirit",
     "nethers_exoticism",
+    "quark",
     "regions_unexplored",
     "terrestria",
     "twilightforest"
   ],
-  "create_collection": true,
+  "create_collection": false,
   "collection_name": "Collection",
   "collection_id": "collection",
   "collection_id_suffix": "collection",

@@ -1,0 +1,11 @@
+{
+  "recipes": [
+    {
+      "ingredient": "quark:seed_pouch",
+      "result": "minecraft:leather",
+      "count": 1,
+      "tool": "shears",
+      "filename": "seed_pouch"
+    }
+  ]
+}

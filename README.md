@@ -15,6 +15,7 @@ Current Mods are:
 - [Nature's Spirit](natures_spirit/README.md)
 - [Nether's Exoticism](nethers_exoticism/README.md)
 - [Oh The Biomes We've Gone](biomeswevegone/README.md)
+- [Quark](quark/README.md)
 - [Regions Unexplored](regions_unexplored/README.md)
 - [Terrestria](terrestria/README.md)
 - [Twilight Forest](twilightforest/README.md)
