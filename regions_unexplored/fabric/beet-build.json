@@ -1,7 +1,7 @@
 {
     "id": "farmers-cutting-ru",
     "name": "Farmer's Cutting: Regions Unexplored",
-    "version": "1.20.1-1.1a-fabric",
+    "version": "1.20.1-1.1b-fabric",
     "output": "build",
     "data_pack": {
         "pack_format": 15,
@@ -10,5 +10,6 @@
             "."
         ],
         "zipped": true
-    }
+    },
+    "minecraft": "1.20.1"
 }

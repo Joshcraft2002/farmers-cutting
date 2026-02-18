@@ -2,7 +2,7 @@
   "name": "Regions Unexplored",
   "namespace": "regions_unexplored",
   "id_suffix": "ru",
-  "data_pack_version": "1.1a",
+  "data_pack_version": "1.1b",
   "pack_format": 15,
   "platforms": ["fabric", "forge"],
   "wood_recipes": {
@@ -95,7 +95,7 @@
     {
       "type": "replace_recipe_types",
       "wood": "small_oak",
-      "recipe_types": ["log","wood"]
+      "recipe_types": ["log"]
     },
     {
       "type": "replace_recipe_types",
