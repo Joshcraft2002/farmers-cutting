@@ -3,5 +3,5 @@
   "mod_id": "betternether",
   "id_suffix": "bn",
   "data_pack_version": "1.0",
-  "platforms": ["fabric"]
+  "platforms": ["neoforge","fabric"]
 }
