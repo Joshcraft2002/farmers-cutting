@@ -4,6 +4,7 @@ A set of datapacks that adds more [Farmer's Delight](https://modrinth.com/mod/fa
 Current Mods are:
 - [The Aether](aether/README.md)
 - [BetterEnd](betterend/README.md)
+- [BetterEnd Forge](betterend/README.md) (unofficial port)
 - [BetterNether](betternether/README.md)
 - [Biomes O' Plenty](biomesoplenty/README.md)
 - [Blue Skies](blue_skies/README.md)
