@@ -4,7 +4,7 @@
   "id_suffix": "bn",
   "data_pack_version": "1.0",
   "pack_format": 15,
-  "platforms": ["fabric"],
+  "platforms": ["forge", "fabric"],
   "wood_recipes": {
     "woods": [
       "anchor_tree", 
