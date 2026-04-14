@@ -4,6 +4,6 @@
   "id_suffix": "promenade",
   "data_pack_version": "1.1a",
   "min_format": [ 88, 0 ],
-  "max_format": [ 94, 1 ],
+  "max_format": [ 101, 1 ],
   "platforms": ["fabric"]
 }
