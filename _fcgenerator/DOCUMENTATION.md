@@ -3,6 +3,25 @@ Very incomplete documentation, I'll fix it up at a later time (should this be a 
 # Farmer's Cutting Generator (fcgenerator)
 Generates [beet](https://mcbeet.dev/) projects for building Farmer's Cutting datapacks.
 
+### Versioning
+#### Farmer's Cutting
+```x.yz```
+- `x`: New mod items
+- `y`: Mod changes
+- `z`: Datapack patch
+#### Farmer's Cutting Collection
+```x.yz```
+- `x`: New Minecraft version (new mod collection)
+- `y`: Mod added/changed
+- `z`: Datapack patch
+#### FCGenerator
+```w-0.x.yz```
+- `w`: Minecraft version
+- `x`: Major (breaking) changes
+  - any changes where existing config files cannot be reused are considered major
+- `y`: Minor changes
+- `z`: Patches
+
 ## Project Structure
 
 ```
@@ -10,7 +29,7 @@ root/
 ├─ .fcgenerator/
 │  └─ config/
 │     └─ <modid>/
-│        ├─ data/
+│        ├─ extras/
 │        ├─ custom.json
 │        ├─ dye.json
 │        ├─ mod.json
@@ -30,42 +49,25 @@ root/
 
 | Path                                      | Description                               |
 | ----------------------------------------- | ----------------------------------------- |
-| `.fcgenerator/config/<modid>/`            | Configuration files for a mod             |
-| `.fcgenerator/config/<modid>/custom.json` | Custom cutting recipes                    |
-| `.fcgenerator/config/<modid>/dye.json`    | Dye cutting recipes                       |
-| `.fcgenerator/config/<modid>/mod.json`    | Datapack configuration                    |
-| `.fcgenerator/config/<modid>/wood.json`   | Wood cutting recipes                      |
-| `.fcgenerator/config/generator.json`      | Generator Configuration                   |
-| `<modid>/fabric/`                         | Fabric beet project for this mod          |
-| `<modid>/forge/`                          | Forge beet project for this mod           |
-| `<modid>/neoforge/`                       | NeoForge project for this mod             |
-| `fccollection/fabric/`                    | Collection of all Fabric projects         |
-| `fccollection/forge/`                     | Collection of all Forge projects          |
-| `fccollection/neoforge/`                  | Collection of all NeoForge projects       |
-| `fcgenerator.py`                          | Main generator script                     |
+| `_fcgenerator/config/<modid>/extras/`     | Holds raw datapack files not covered by the generator   |
+| `<directory>`                             | Directory description (to be rewritten)   |
 
 ---
 
 ## Usage
 
-1. **Configure**  
-   Place configuration files for each mod in `.fcgenerator/config/<modid>/`.  
-   Example files: `custom.json`, `dye.json`, `mod.json`.
-
-2. **Generate**  
-   Run `fcgenerator.py` to generate beet projects for each mod and loader.
-
-3. **Build**  
-   Use [beet](https://mcbeet.dev/) to build the generated projects into datapacks.
+1. Place configuration files for each mod in `.fcgenerator/config/<modid>/`. 
+2. Run `fcgenerator.py` to generate beet projects for each mod and loader.
+3. Use [beet](https://mcbeet.dev/) to build the generated projects into datapacks. Directory names are the mod ids specified in each config.
 
 ---
 
 ## Configuration
 
-A template for configuration files can be found at `.fcgenerator/config/_template/`
+A template for configuration files can be found at [config/_template/](config/_template/)
 
 ### `mod.json`
-Defines general metadata and settings for the mod to generate for.
+Defines general metadata and settings of the mod to generate for.
 
 ```json
 {
@@ -81,7 +83,7 @@ Defines general metadata and settings for the mod to generate for.
 
 | Field               | Type     | Description 
 | ------------------- | -------- | ----------- 
-| `name`              | string   | Mod name 
+| `name`              | string   | Mod name
 | `namespace`         | string   | Mod ID 
 | `id_suffix`         | string   | Short identifier for output folders/files 
 | `data_pack_version` | string   | Version string for the data pack 

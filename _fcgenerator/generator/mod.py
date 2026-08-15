@@ -61,7 +61,7 @@ def process_mod_config(mod_id: str, pack_format: str, minecraft_version: str):
     except Exception as e:
         print(f"Error processing mod '{mod_id}': {e}")
         return
-    
+
 def copy_extras(mod_id: str, platform: str, output_data_dir: Path):
     """Copy all extra files."""
     extras_dir = CONFIG_DIR / mod_id / "extras" / platform

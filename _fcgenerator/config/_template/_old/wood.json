@@ -5,8 +5,7 @@
 			"interesting_pine", 
 			"another_mangrove"
 		],
-		"cutting_types": ["log", "wood"],
-		"salvage_types": ["door", "hanging_sign", "sign", "trapdoor"]
+		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
 	},
 	"overrides": [
 		{

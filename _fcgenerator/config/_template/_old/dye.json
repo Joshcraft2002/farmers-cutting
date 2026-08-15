@@ -1,0 +1,6 @@
+{
+	"recipes": [
+		{"input": "flower", "color": "red", "count": 2},
+		{"input": "another_flower", "color": "purple", "count": 2}
+	]
+}

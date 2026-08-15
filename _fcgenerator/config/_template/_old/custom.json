@@ -1,0 +1,19 @@
+{
+  "recipes": [
+    {
+      "ingredient": "examplemod:shiny_block",
+      "result": "examplemod:shiny_chunk",
+      "count": 4,
+      "tool": "pickaxe",
+      "filename": "shiny_block"
+    },
+    {
+      "ingredient": "examplemod:unique_wood",
+      "result": "examplemod:stripped_unique_wood",
+      "count": 1,
+      "side_product": "examplemod:unique_item",
+      "tool": "axe_strip",
+      "filename": "shiny_block"
+    }
+  ]
+}
