@@ -1,10 +1,17 @@
 from pathlib import Path
+from typing import Dict
 import json
 import shutil
 
+PATH_DIR = Path(__file__).parent.parent / "data"
 CLEANUP_DIRS = ['fabric/data', 'neoforge/data', 'forge/data', 'data']
+GENERATOR_DATA = "generator.json"
 
-def write_json_file(path: Path, data, indent=2, log_enabled=False) -> bool:
+def read_json(path: Path) -> Dict:
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+def write_json(path: Path, data, indent=2, log_enabled=False) -> bool:
     """Write a JSON file and optionally log the action."""
     try:
         with open(path, 'w', encoding='utf-8') as f:
@@ -15,10 +22,15 @@ def write_json_file(path: Path, data, indent=2, log_enabled=False) -> bool:
     except Exception as e:
         print(f"Error writing {path}: {e}")
         return False
-    
-def copy_tree(src_dir: Path, dest_dir: Path):
+
+def load_generator_data() -> Dict:
+    """Load the generator-wide data (mods list, MC version)."""
+    data_path = PATH_DIR / GENERATOR_DATA
+    return read_json(data_path)
+
+def copy_dir_tree(src_dir: Path, dest_dir: Path):
     """
-    Recursively copy all files from src_dir to dest_dir, preserving directory structure.
+    Recursively copy all files from src_dir to dest_dir.
     """
     if not src_dir.exists():
         return
@@ -36,6 +48,7 @@ def cleanup_old_files(mod: str, enable_logging: bool = False):
     :param mod: Mod namespace
     :param enable_logging: Whether to log file operations
     """
+
     if enable_logging:
         print(f"Cleaning up old files for {mod}...")
         

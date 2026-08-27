@@ -23,6 +23,7 @@ class ModData:
     max_format: List[int]
     enable_logging: bool = False
 
+# TODO: what is a mapping
 @dataclass
 class RecipeTypeMapping:
     """Mapping of values used in the recipe file per recipe type."""

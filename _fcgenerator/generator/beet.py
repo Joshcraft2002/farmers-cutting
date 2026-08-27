@@ -1,6 +1,6 @@
 from pathlib import Path
 from .models import ModData
-from .utils import write_json_file
+from .fcfilerw import write_json_file
 
 def generate_beet_files(
     base_dir: Path, 

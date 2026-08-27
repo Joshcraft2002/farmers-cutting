@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Dict, List, Optional
 from .models import ModData, RecipeTypeMapping
-from .utils import write_json_file
+from .fcfilerw import write_json_file
 
 RECIPE_TYPE_MAPPINGS = {
     # For non-default mappings
