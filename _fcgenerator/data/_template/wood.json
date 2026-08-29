@@ -1,18 +1,35 @@
 {
-	"recipes": {
-		"woods": [
-			"example_oak", 
-			"interesting_pine", 
-			"another_mangrove"
-		],
-		"types": ["door", "hanging_sign", "sign", "trapdoor", "log", "wood"]
-	},
-	"overrides": [
+	"recipes": [
 		{
-			"type": "replace_recipe_types",
-			"wood": "interesting_pine",
-			"recipe_types": ["log", "wood"]
+			"woods": [
+				"example_oak", 
+				"interesting_pine", 
+				"another_mangrove"
+				
+			],
+			"types": {
+				"furniture": ["door", "hanging_sign", "sign", "trapdoor"],
+				"salvaging": ["chest_boat"],
+				"cutting": ["log", "wood"]
+			}
 		},
+		{
+			"woods": [ "interesting_pine" ],
+			"types": { "cutting": ["log", "wood"] }
+		},
+		{
+			"woods": [ 
+				"luminous_mushroom",
+				"dark_toadstool" 
+			],
+			"types": {
+				"furniture": ["door", "hanging_sign", "sign", "trapdoor"],
+				"salvaging": ["chest_boat"],
+				"cutting": ["stem", "hyphae"]
+			}
+		}
+	],	
+	"overrides": [
 		{
 			"type": "replace_single_recipe",
 			"wood": "interesting_pine",

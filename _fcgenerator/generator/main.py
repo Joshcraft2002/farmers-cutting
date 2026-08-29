@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import Dict
 import shutil
 import json
-from .beet import generate_beet_files
+# from .beet import generate_beet_files
 from .fcfilerw import cleanup_old_files, load_generator_data
 from .mod import process_mod_data
 from .models import ModData
