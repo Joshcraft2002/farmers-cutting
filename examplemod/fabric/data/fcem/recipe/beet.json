@@ -1,0 +1,19 @@
+{
+  "id": "farmers-cutting-em",
+  "name": "Farmer's Cutting: Example Mod",
+  "version": "26.1.2-1.0-fabric",
+  "data_pack": {
+    "min_format": [
+      88,
+      0
+    ],
+    "max_format": [
+      88,
+      0
+    ],
+    "description": "Adds Farmer's Delight cutting recipes for Example Mod",
+    "load": [
+      "."
+    ]
+  }
+}
