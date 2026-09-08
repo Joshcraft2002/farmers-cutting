@@ -1,3 +1,6 @@
+# 0.4.0 (2026-?)
+A big refactor to make the generator easier to maintain between minecraft and farmer's delight versions (from FD )
+
 # 0.3.1 (2025-10-08)
 - Updated `mod.json` and `generator.json` format to match the new `pack.mcmeta` format in 1.21.9
   - Template updated accordingly

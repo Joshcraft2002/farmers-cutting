@@ -6,16 +6,17 @@ import shutil
 PATH_DIR = Path(__file__).parent.parent / "data"
 CLEANUP_DIRS = ['fabric/data', 'neoforge/data', 'forge/data', 'data']
 GENERATOR_DATA = "generator.json"
+INDENT = 2
 
 def read_json(path: Path) -> Dict:
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
-def write_json(path: Path, data, indent=2, log_enabled=False) -> bool:
+def write_json(path: Path, data, log_enabled=False) -> bool:
     """Write a JSON file and optionally log the action."""
     try:
         with open(path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=indent)
+            json.dump(data, f, indent=INDENT)
         if log_enabled:
             print(f"Wrote {path}")
         return True

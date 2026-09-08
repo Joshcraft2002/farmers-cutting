@@ -30,6 +30,6 @@ class WoodRecipeSet:
     woods: list[str]
     furniture: list[str]
     salvaging: list[str]
-    stripping: list[str]
+    cutting: list[str]
     
 

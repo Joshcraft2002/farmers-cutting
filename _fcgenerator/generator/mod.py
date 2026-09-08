@@ -1,12 +1,11 @@
 from pathlib import Path
 import shutil
-from typing import Dict
+
+from .recipe.wood import generate_wood_recipes
 
 from .beet import generate_beet_files
-
-# from .recipe.wood import generate_wood_recipes
 from .fcfilerw import read_json, PATH_DIR
-from .models import ModData, ModRecipes, VersionData
+from .models import ModData
 from .fcfilerw import copy_dir_tree
 from .parsing import *
 
@@ -21,7 +20,8 @@ def process_mod_data(mod_id: str, mc_version: str):
         print(f"Parsed mod data for {mod_data.mod_name}")
 
         # Parse recipe files
-        # parse_wood_recipes(mod_data_dir / 'wood.json', mod_data)
+        wood_recipe_dir = read_json(mod_data_dir / 'wood.json')
+        parse_wood_recipes(wood_recipe_dir, mod_data)
         # parse_dye_recipes(mod_data_dir / 'dye.json', mod_data)
         # parse_custom_recipes(mod_data_dir / 'custom.json', mod_data)
 
@@ -45,15 +45,20 @@ def generate_mod_files(mod_data: ModData):
     for platform in mod_data.platforms:
         recipe_dir = get_recipe_dir(mod_data, platform)
         recipe_dir.mkdir(parents=True, exist_ok=True)
+        base_dir = get_base_output_dir(mod_data, platform)
 
-        # generate_wood_recipes(mod_data, platform, recipe_dir)
+        generate_wood_recipes(mod_data, platform, recipe_dir)
         # generate_recipes(mod_data, platform, recipe_dir)
         # copy_extras(mod_data.mod_id, platform, mod_data_dir)
-        generate_beet_files(mod_data, platform, recipe_dir)
+        generate_beet_files(mod_data, platform, base_dir)
+
+def get_base_output_dir(mod_data: ModData, platform: str) -> Path:
+    """Get the base directory for a given mod and platform."""
+    return Path(f"{mod_data.mod_id}/{platform}")
 
 def get_recipe_dir(mod_data: ModData, platform: str) -> Path:
     """Get the recipe directory for a given mod and platform."""
-    base_dir = Path(f"{mod_data.mod_id}/{platform}")
+    base_dir = get_base_output_dir(mod_data, platform)
     recipe_dir = base_dir / 'data' / f"fc{mod_data.id_suffix}" / 'recipe'
     return recipe_dir
         

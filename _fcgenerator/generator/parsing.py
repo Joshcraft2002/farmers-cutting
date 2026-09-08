@@ -1,6 +1,8 @@
-from .models import ModData, ModRecipes, VersionData
+from .models import *
 from typing import Dict
 from .fcfilerw import read_json
+
+# Functions kept separate in case of formatting changes between versions
 
 def parse_mod_data(mod_data: Dict, minecraft_version: str) -> ModData:
     return ModData(
@@ -24,18 +26,28 @@ def parse_mod_data(mod_data: Dict, minecraft_version: str) -> ModData:
     )
 
 def parse_wood_recipes(wood_data_json: Dict, mod_data: ModData):
-    """Parse wood recipes from mod data json into ModData object"""
-    recipes = mod_data.recipes
+    """Parse wood recipes from wood recipe json into recipes in ModData"""
     try:
-        wood_info = read_json(wood_data_json)
-        wood_recipes = wood_info.get('recipes', [])
-        overrides = wood_info.get('overrides', [])
+        parsed_recipes = []
+        wood_recipes: list[Dict] = wood_data_json.get('recipes', [])
+        overrides: list = []
+        # overrides = wood_data_json.get('overrides', [])
+        for recipe_set in wood_recipes:
+            recipe_types = recipe_set.get('types', {})
+            wood_recipe_set = WoodRecipeSet(
+                woods=recipe_set.get('woods', []),
+                furniture=recipe_types.get('furniture', []),
+                salvaging=recipe_types.get('salvaging', []),
+                cutting=recipe_types.get('cutting', [])
+            )
+            parsed_recipes.append(wood_recipe_set)
     except (FileNotFoundError, ValueError, KeyError) as e:
         print(f"Error parsing wood recipes: {e}. Proceeding with empty recipes.")
-        wood_recipes = []
+        parsed_recipes = []
         overrides = []
-    recipes.wood_recipes = wood_recipes
-    recipes.overrides = overrides
+    finally:
+        mod_data.recipes.wood_recipes = parsed_recipes
+        mod_data.recipes.overrides = overrides
 
 def parse_dye_recipes(dye_data_json: Dict, mod_data: ModData):
     try:
